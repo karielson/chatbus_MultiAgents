@@ -1,0 +1,11 @@
+id_consulta,tipo_tarefa,pergunta,linha,origem,destino,parada,sentido,dia_operacional,preferencia,ferramenta_esperada
+001,rota,"Como vou da Av. Paulista até o Morumbi de ônibus?",,"Av. Paulista","Morumbi",,,,rapida,consultar_rota
+002,horarios,"Quais os horários da linha 6455-10 no sábado?",6455-10,,,,,1,,consultar_horarios
+003,horarios,"Quais os horários da linha 6455-10 no domingo?",6455-10,,,,,2,,consultar_horarios
+004,status,"Onde estão os ônibus da linha 715M-10 sentido 1?",715M-10,,,,1,,,status_onibus_tool
+005,status,"Mostre no mapa os ônibus da linha 6455-10",6455-10,,,,,,,status_onibus_tool
+006,chegada,"Quando passa o 6455-10 na Av. Paulista?",6455-10,,,"Av. Paulista",,,,consultar_previsao_chegada
+007,rota,"Como ir do Terminal Parque Dom Pedro até Pinheiros com menos caminhada?",,"Terminal Parque Dom Pedro","Pinheiros",,,,menos_caminhada,consultar_rota
+008,faq,"Posso levar cachorro no ônibus?",,,,,,,,,faq
+009,faq,"Como faço a segunda via do Bilhete Único?",,,,,,,,,faq
+010,rota,"Quero ir da Sé até o Butantã de ônibus",,"Sé","Butantã",,,,rapida,consultar_rota

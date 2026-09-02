@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import os
 from agno.models.openai import OpenAIChat
 from agno.tools import tool
-
+from core.eval_trace import set_tool, set_agent
 
 
 from config.settings import settings
@@ -22,8 +22,10 @@ load_dotenv()  # Carrega as variáveis do .env
 def consultar_horarios(linha: str, dia: str = None) -> str:
     """Informa os horários de partidas da linha de ônibus. sempre informar todos os horários do dia e explicar que se refere a saída do terminal.
     Se o usuário solicitar informações do domingo o parametro dia deve ser 2, se sábado dia deve ser 1, se um dia útil dia deve ser 0, não informar nada dia recebe none.
-    Se usuário não informar o dia da semana não use nenhum parametro de entrada no dia da semana e informe na resposta 'são os horários de hoje'"""
-   
+    Se usuário não informar o dia da semana não use nenhum parametro de entrada no dia da semana e informe na resposta 'são os horários de hoje'
+    SEMPRE INFORME TODOS OS HORÁRIOS DA LISTA DE HORÁRIOS"""
+    set_agent("agente_horarios")
+    set_tool("consultar_horarios")   
     linhas = sptrans.buscar_linha(linha)
 
     if not linhas:
@@ -49,8 +51,9 @@ agente_horarios = Agent(
         "Se o usuário solicitar informações do domingo o parametro dia deve ser 2, se sábado dia deve ser 1, se um dia útil dia deve ser 0, não informar nada dia recebe none",
         "Use a função `consultar_horarios(linha, dia)` para retornar os horários.",
         "Se houver múltiplas linhas, peça ao usuário para especificar.",
-        "No após a reposta sempre pergunte se pode oferecer mais alguma informação relacionada, como de outro dia da semana."
         "Se usuário não informar o dia da semana não use nenhum parametro de entrada no dia da semana e informe na resposta 'são os horários de hoje'",
+        "sempre informar todos os horários do dia",
+        "SEMPRE INFORME TODOS OS HORÁRIOS DA LISTA DE HORÁRIOS",
         
     ],
     markdown=True,

@@ -1,0 +1,1320 @@
+﻿id_consulta,tipo_tarefa,pergunta,resposta,arquitetura,tempo_resposta_seg,ferramenta_esperada,ferramenta_usada,erro,timestamp_inicio,timestamp_fim,referencia_tipo,referencia_url_esperada,referencia_codigo_linha,referencia_letreiro,referencia_sentido_descricao,referencia_erro,referencia_observacao,referencia_timestamp_inicio,referencia_timestamp_fim,referencia_linha_resolvida,referencia_horarios_esperados,referencia_rota_tempo_total_min,referencia_rota_distancia_total_km,referencia_rota_qtd_baldeacoes,referencia_rota_linhas_utilizadas,referencia_rota_pontos_embarque,referencia_rota_pontos_desembarque,referencia_faq_pergunta,referencia_faq_resposta,referencia_faq_texto,referencia_faq_categoria,referencia_faq_similaridade_pergunta,referencia_faq_score,pef,acuracia,completude,delta_temporal_status_seg,delta_temporal_horarios_seg,delta_temporal_rotas_seg,atualidade,qoi
+R001,rota,"Como ir de ônibus do Hospital Campo Limpo até a Avenida Paulista, 900, Bela Vista?","Para ir de ônibus do Hospital Campo Limpo até a Avenida Paulista, 900, Bela Vista, siga estas instruções:
+
+1. **Caminhada até o Hospital Campo Limpo**: 
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **6451-10 - Terminal Capelinha / Terminal Bandeira via Marginal Pinheiros** 
+   - Direção: Terminal Bandeira
+   - Ponto de partida: Hospital Campo Limpo 
+   - Ponto de chegada: Getúlio Vargas B/C
+   - Horário de saída: 8:50 AM
+   - Horário de chegada: 9:36 AM
+   - Distância: 16.0 km
+   - Duração: 46 minutos
+
+3. **Caminhada até a Avenida Paulista, 900**:
+   - Distância: 1.0 km
+   - Duração: 16 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 4 minutos. Se precisar de mais alguma informação, fique à vontade para perguntar!",multiagente,11.388,consultar_rota,consultar_rota,,2026-06-30T08:46:55.775453,2026-06-30T08:47:07.168615,rota,,,,,,,2026-06-30T08:46:54.585344,2026-06-30T08:46:55.775453,,,64,17.07,0,6451-10,Hospital Campo Limpo,Getúlio Vargas B/C,,,,,,,1,0.975,1.0,,,11.3932,1.0,0.991667
+R002,rota,"Qual é a rota de ônibus mais rápida da Praça da Sé até a Rua Alvarenga, 1000, no Butantã?","A rota de ônibus mais rápida da Praça da Sé até a Rua Alvarenga, 1000, no Butantã é a seguinte:
+
+1. **Caminhada até o Pateo do Colégio**:
+   - Distância: 0.3 km
+   - Duração: 4 minutos
+
+2. **Ônibus**:
+   - Linha: **508L-10 - Circular Terminal Princesa Isabel / Paulista / Aclimação / Sé**
+   - Direção: Terminal Princesa Isabel
+   - Ponto de partida: Pateo do Colegio 
+   - Ponto de chegada: Av. São João, 588
+   - Horário de saída: 8:57 AM
+   - Horário de chegada: 9:04 AM
+   - Distância: 1.7 km
+   - Duração: 8 minutos
+
+3. **Ônibus**:
+   - Linha: **7545-10 - Jardim João XXIII / Praça Ramos de Azevedo**
+   - Direção: Jardim João XXIII
+   - Ponto de partida: Av. São João, 588 
+   - Ponto de chegada: Rua Reação, 300
+   - Horário de saída: 9:11 AM
+   - Horário de chegada: 9:35 AM
+   - Distância: 8.4 km
+   - Duração: 24 minutos
+
+4. **Caminhada até a Rua Alvarenga, 1000**:
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+A duração total da viagem é de aproximadamente 45 minutos. Se precisar de mais informações ou de outra rota, estou à disposição!",multiagente,12.2115,consultar_rota,consultar_rota,,2026-06-30T08:47:07.991762,2026-06-30T08:47:20.204175,rota,,,,,,,2026-06-30T08:47:07.168615,2026-06-30T08:47:07.991762,,,45,10.58,1,508L-10|7545-10,"Pateo do Colegio|Av. São João, 588","Av. São João, 588|Rua Reação, 300",,,,,,,1,0.95,0.8,,,12.2124,1.0,0.916667
+R003,rota,"Como ir de ônibus, com menos caminhada, do Terminal Parque Dom Pedro II até o Largo da Batata, em Pinheiros?","Para ir de ônibus do Terminal Parque Dom Pedro II até o Largo da Batata, em Pinheiros, com menos caminhada, siga as instruções abaixo:
+
+1. **Caminhada até o Terminal Parque Dom Pedro II**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **909T-10 - Terminal Pinheiros / Terminal Parque Dom Pedro II via Consolação**
+   - Direção: Terminal Pinheiros
+   - Ponto de partida: Terminal Parque Dom Pedro II 
+   - Ponto de chegada: Rua Baltazar Carrasco, 176 - Parada Faria Lima
+   - Horário de saída: 8:57 AM
+   - Horário de chegada: 9:49 AM
+   - Distância: 9.6 km
+   - Duração: 53 minutos
+
+3. **Caminhada até o Largo da Batata**:
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+A duração total da viagem será de aproximadamente 1 hora. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,9.9132,consultar_rota,consultar_rota,,2026-06-30T08:47:20.740220,2026-06-30T08:47:30.651502,rota,,,,,,,2026-06-30T08:47:20.208160,2026-06-30T08:47:20.740220,,,60,10.04,0,909T-10,Terminal Parque Dom Pedro II,"Rua Baltazar Carrasco, 176 - Parada Faria Lima",,,,,,,1,0.875,1.0,,,9.9113,1.0,0.958333
+R004,rota,"Qual rota de ônibus mais rápida sai do MASP, na Avenida Paulista, até o Shopping Morumbi?","A rota de ônibus mais rápida do MASP, na Avenida Paulista, até o Shopping Morumbi é a seguinte:
+
+1. **Caminhada até o ponto de ônibus Getúlio Vargas C/B 1**:
+   - Distância: 0.4 km
+   - Duração: 5 minutos
+
+2. **Ônibus**:
+   - Linha: **6505-10 - Terminal Guarapiranga / Terminal Bandeira**
+   - Direção: Terminal Guarapiranga
+   - Ponto de partida: Getúlio Vargas C/B 1 
+   - Ponto de chegada: Roque Petroni Júnior C/B 1
+   - Horário de saída: 8:55 AM
+   - Horário de chegada: 9:19 AM
+   - Distância: 8.4 km
+   - Duração: 24 minutos
+
+3. **Caminhada até a Estação de Transferência Santo Amaro/Brooklin**:
+   - Distância: 0.1 km
+   - Duração: 1 minuto
+
+4. **Ônibus**:
+   - Linha: **607C-10 - Jardim Miriam / Itaim Bibi**
+   - Direção: Itaim Bibi
+   - Ponto de partida: Estação de Transferência Santo Amaro/Brooklin
+   - Ponto de chegada: Morumbi Shopping B/C
+   - Horário de saída: 9:24 AM
+   - Horário de chegada: 9:29 AM
+   - Distância: 1.1 km
+   - Duração: 4 minutos
+
+5. **Caminhada até o Shopping Morumbi**:
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+A duração total da viagem é de aproximadamente 44 minutos. Se precisar de mais informações ou ajuda adicional, estou à disposição!",multiagente,12.3611,consultar_rota,consultar_rota,,2026-06-30T08:47:31.429994,2026-06-30T08:47:43.791298,rota,,,,,,,2026-06-30T08:47:30.651502,2026-06-30T08:47:31.429994,,,44,10.23,1,6505-10|607C-10,Getúlio Vargas C/B 1|Estação de Transferência Santo Amaro/Brooklin,Roque Petroni Júnior C/B 1|Morumbi Shopping B/C,,,,,,,1,0.75,1.0,,,12.3613,1.0,0.916667
+R005,rota,Como ir de ônibus do Terminal Bandeira até o Hospital das Clínicas da FMUSP?,"Para ir de ônibus do Terminal Bandeira até o Hospital das Clínicas da FMUSP, siga estas instruções:
+
+1. **Caminhada até o ponto da Rua Cel. Xavier de Toledo, 295 (Ponto Final da Linha 7545)**:
+   - Distância: 0.4 km
+   - Duração: 6 minutos
+
+2. **Ônibus**:
+   - Linha: **7545-10 - Jardim João XXIII / Praça Ramos de Azevedo**
+   - Direção: Jardim João XXIII
+   - Ponto de partida: Rua Cel. Xavier de Toledo, 295
+   - Ponto de chegada: Clínicas C/B
+   - Horário de saída: 8:58 AM
+   - Horário de chegada: 9:10 AM
+   - Distância: 4.3 km
+   - Duração: 12 minutos
+
+3. **Caminhada até o Hospital das Clínicas**:
+   - Endereço: R. Dr. Ovídio Pires de Campos, 225 - Cerqueira César
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+A duração total da viagem será de aproximadamente 24 minutos. Se precisar de mais informações ou ajuda, não hesite em perguntar!",multiagente,10.177,consultar_rota,consultar_rota,,2026-06-30T08:47:44.580214,2026-06-30T08:47:54.750011,rota,,,,,,,2026-06-30T08:47:43.791298,2026-06-30T08:47:44.580214,,,24,5.04,0,7545-10,"Rua Cel. Xavier de Toledo, 295 - Ponto Final da Linha 7545",Clínicas C/B,,,,,,,1,0.95,1.0,,,10.1698,1.0,0.983333
+R006,rota,Me mostre a rota de ônibus mais rápida do Terminal Jabaquara até o Terminal Parque Dom Pedro II.,"A rota de ônibus mais rápida do Terminal Jabaquara até o Terminal Parque Dom Pedro II é a seguinte:
+
+1. **Caminhada até o ponto da Av. Eng. Armando de Arruda Pereira, 1897 (Parada Metrô Jabaquara)**:
+   - Distância: 0.2 km
+   - Duração: 1 minuto
+
+2. **Ônibus**:
+   - Linha: **175T-10 - Santana / Jabaquara**
+   - Direção: Santana
+   - Ponto de partida: Av. Eng. Armando de Arruda Pereira, 1897
+   - Ponto de chegada: Av. 23 de Maio, Km 4,3 B/C - Parada Tutoia
+   - Horário de saída: 8:48 AM
+   - Horário de chegada: 9:25 AM
+   - Distância: 11.5 km
+   - Duração: 36 minutos
+
+3. **Ônibus**:
+   - Linha: **5300-10 - Terminal Santo Amaro / Terminal Parque Dom Pedro II via Ibirapuera**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Av. 23 de Maio, Km 4,3 B/C - Parada Tutoia
+   - Ponto de chegada: Rua Dr. Bittencourt Rodrigues, 380 - Praça Fernando Costa
+   - Horário de saída: 9:30 AM
+   - Horário de chegada: 9:45 AM
+   - Distância: 5.0 km
+   - Duração: 16 minutos
+
+4. **Caminhada até o Terminal Parque Dom Pedro II**:
+   - Distância: 0.3 km
+   - Duração: 4 minutos
+
+A duração total da viagem é de aproximadamente 1 hora. Se precisar de mais informações ou ajuda com outra rota, estou à disposição!",multiagente,12.655,consultar_rota,consultar_rota,,2026-06-30T08:47:55.631811,2026-06-30T08:48:08.291167,rota,,,,,,,2026-06-30T08:47:54.750011,2026-06-30T08:47:55.631811,,,60,16.92,1,175T-10|5300-10,"Av. Eng. Armando de Arruda Pereira, 1897 - Parada Metrô Jabaquara|Av. 23 de Maio, Km 4,3 B/C - Parada Tutoia","Av. 23 de Maio, Km 4,3 B/C - Parada Tutoia|Rua Dr. Bittencourt Rodrigues, 380 - Praça Fernando Costa",,,,,,,1,0.875,1.0,,,12.6594,1.0,0.958333
+R007,rota,"Como ir de ônibus do Terminal Tatuapé até o MASP, na Avenida Paulista?","Para ir de ônibus do Terminal Tatuapé até o MASP, na Avenida Paulista, siga estas instruções:
+
+1. **Caminhada até o ponto da Rua Melo Freire, 355 (Parada Metrô Tatuapé B/C)**:
+   - Distância: 58 m
+   - Duração: 1 minuto
+
+2. **Ônibus**:
+   - Linha: **4315-10 - Terminal Vila Carrão / Terminal Parque Dom Pedro II via Aricanduva-Radial Leste**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Rua Melo Freire, 355 - Parada Metrô Tatuapé B/C
+   - Ponto de chegada: Terminal Metrô Belém Sul
+   - Horário de saída: 9:06 AM
+   - Horário de chegada: 9:10 AM
+   - Distância: 1.4 km
+   - Duração: 4 minutos
+
+3. **Ônibus**:
+   - Linha: **5141-10 - Terminal Sapopemba / Praça do Correio**
+   - Direção: Praça do Correio
+   - Ponto de partida: Terminal Metrô Belém Sul
+   - Ponto de chegada: Av. Mercúrio, Oposto Nº 180
+   - Horário de saída: 9:14 AM
+   - Horário de chegada: 9:28 AM
+   - Distância: 4.9 km
+   - Duração: 16 minutos
+
+4. **Ônibus**:
+   - Linha: **6403-10 - Terminal João Dias / Terminal Parque Dom Pedro II**
+   - Direção: Terminal João Dias
+   - Ponto de partida: Av. Mercúrio, Oposto Nº 180
+   - Ponto de chegada: Getúlio Vargas C/B 1
+   - Horário de saída: 9:33 AM
+   - Horário de chegada: 9:45 AM
+   - Distância: 4.3 km
+   - Duração: 12 minutos
+
+5. **Caminhada até o MASP**:
+   - Endereço: Av. Paulista, 1578 - Bela Vista
+   - Distância: 0.4 km
+   - Duração: 7 minutos
+
+A duração total da viagem será de aproximadamente 46 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,19.3652,consultar_rota,consultar_rota,,2026-06-30T08:48:09.270002,2026-06-30T08:48:28.641687,rota,,,,,,,2026-06-30T08:48:08.291167,2026-06-30T08:48:09.270002,,,63,12.77,2,3053-10|5141-10|6403-10,"Rua Guandu, 8|Av. Álvaro Ramos, 1917|Av. Mercúrio, Oposto Nº 180","Av. Álvaro Ramos, 1917|Av. Mercúrio, Oposto Nº 180|Getúlio Vargas C/B 1",,,,,,,1,0.8767,1.0,,,19.3717,1.0,0.958900
+R008,rota,Qual trajeto de ônibus faço do Terminal Santo Amaro até o Portão 3 do Parque Ibirapuera?,"Para ir de ônibus do Terminal Santo Amaro até o Portão 3 do Parque Ibirapuera, siga estas instruções:
+
+1. **Caminhada até o Terminal Santo Amaro**:
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+2. **Ônibus**:
+   - Linha: **5300-10 - Terminal Santo Amaro / Terminal Parque Dom Pedro II via Ibirapuera**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Terminal Santo Amaro
+   - Ponto de chegada: Moema B/C
+   - Horário de saída: 9:00 AM
+   - Horário de chegada: 9:24 AM
+   - Distância: 7.9 km
+   - Duração: 25 minutos
+
+3. **Caminhada até o ponto da Av. Moema, 81**:
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+4. **Ônibus**:
+   - Linha: **509J-10 - Jardim Selma / Parque Ibirapuera**
+   - Direção: Parque Ibirapuera
+   - Ponto de partida: Av. Moema, 81
+   - Ponto de chegada: Av. República do Líbano, 705
+   - Horário de saída: 9:32 AM
+   - Horário de chegada: 9:40 AM
+   - Distância: 2.2 km
+   - Duração: 8 minutos
+
+5. **Caminhada até o Portão 3 do Parque Ibirapuera**:
+   - Endereço: Av. Pedro Álvares Cabral, s/n - Vila Mariana
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+A duração total da viagem é de aproximadamente 48 minutos. Se precisar de mais informações ou ajudas, estou à disposição!",multiagente,13.6387,consultar_rota,consultar_rota,,2026-06-30T08:48:29.333353,2026-06-30T08:48:42.962744,rota,,,,,,,2026-06-30T08:48:28.646905,2026-06-30T08:48:29.333353,,,48,10.62,1,5300-10|509J-10,"Terminal Santo Amaro|Av. Moema, 81","Moema B/C|Av. República do Líbano, 705",,,,,,,1,0.975,1.0,,,13.6294,1.0,0.991667
+R009,rota,"Como chegar de ônibus do Mercado Municipal da Lapa até a Rua Domingos de Morais, 1000, na Vila Mariana?","Para ir de ônibus do Mercado Municipal da Lapa até a Rua Domingos de Morais, 1000, na Vila Mariana, siga estas instruções:
+
+1. **Caminhada até o ponto da Rua Joaquim Machado, 212 (Ponto Inicial da Linha 7281)**:
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+2. **Ônibus**:
+   - Linha: **7281-10 - Lapa / Praça Ramos de Azevedo**
+   - Direção: Praça Ramos de Azevedo
+   - Ponto de partida: Rua Joaquim Machado, 212
+   - Ponto de chegada: Paulista B/C
+   - Horário de saída: 8:55 AM
+   - Horário de chegada: 9:19 AM
+   - Distância: 7.5 km
+   - Duração: 24 minutos
+
+3. **Caminhada até o ponto da Av. Paulista, 2319**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+4. **Ônibus**:
+   - Linha: **875A-10 - Aeroporto / Perdizes**
+   - Direção: Aeroporto
+   - Ponto de partida: Av. Paulista, 2319
+   - Ponto de chegada: Rua Vergueiro, 2740
+   - Horário de saída: 9:26 AM
+   - Horário de chegada: 9:42 AM
+   - Distância: 4.2 km
+   - Duração: 16 minutos
+
+5. **Caminhada até a Rua Domingos de Morais, 1000**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+A duração total da viagem será de aproximadamente 55 minutos. Se precisar de mais informações ou ajuda, estarei à disposição!",multiagente,16.5436,consultar_rota,consultar_rota,,2026-06-30T08:48:43.705427,2026-06-30T08:49:00.254423,rota,,,,,,,2026-06-30T08:48:42.976685,2026-06-30T08:48:43.705427,,,55,12.49,1,7281-10|875A-10,"Rua Joaquim Machado, 212 - Ponto Inicial da Linha 7281|Av. Paulista, 2319","Paulista B/C|Rua Vergueiro, 2740",,,,,,,1,0.975,1.0,,,16.549,1.0,0.991667
+R010,rota,Qual rota de ônibus faço do Terminal Santo Amaro até o Shopping SP Market?,"Para ir de ônibus do Terminal Santo Amaro até o Shopping SP Market, siga estas instruções:
+
+1. **Caminhada até o ponto de ônibus no Terminal Santo Amaro**:
+   - Distância: 33 m
+   - Duração: 1 minuto
+
+2. **Ônibus**:
+   - Linha: **6091-10 - Vargem Grande / Terminal Santo Amaro**
+   - Direção: Vargem Grande
+   - Ponto de partida: Terminal Santo Amaro
+   - Ponto de chegada: Av. das Nações Unidas, 22462
+   - Horário de saída: 8:51 AM
+   - Horário de chegada: 9:06 AM
+   - Distância: 5.7 km
+   - Duração: 15 minutos
+
+3. **Caminhada até o Shopping SP Market**:
+   - Endereço: Av. das Nações Unidas, 22540 - Jurubatuba
+   - Distância: 0.4 km
+   - Duração: 1 minuto
+
+A duração total da viagem será de aproximadamente 17 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.8736,consultar_rota,consultar_rota,,2026-06-30T08:49:01.043600,2026-06-30T08:49:12.917376,rota,,,,,,,2026-06-30T08:49:00.254423,2026-06-30T08:49:01.043600,,,20,6.34,0,6091-10,Terminal Santo Amaro,"Av. das Nações Unidas, 22462",,,,,,,1,1.0,1.0,,,11.8738,1.0,1.000000
+R011,rota,Como ir de ônibus do Terminal Capelinha até o Hospital Campo Limpo?,"Para ir de ônibus do Terminal Capelinha até o Hospital Campo Limpo, siga estas instruções:
+
+1. **Caminhada até o Terminal Capelinha**:
+   - Distância: 0.3 km
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **6451-10 - Terminal Capelinha / Terminal Bandeira via Marginal Pinheiros**
+   - Direção: Terminal Bandeira
+   - Ponto de partida: Terminal Capelinha
+   - Ponto de chegada: Hospital Campo Limpo
+   - Horário de saída: 8:52 AM
+   - Horário de chegada: 8:57 AM
+   - Distância: 1.8 km
+   - Duração: 6 minutos
+
+3. **Caminhada até o Hospital Campo Limpo**:
+   - Endereço: Estr. de Itapecerica, 1661 - Vila Maracana
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+A duração total da viagem será de aproximadamente 10 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.0395,consultar_rota,consultar_rota,,2026-06-30T08:49:13.552453,2026-06-30T08:49:24.592847,rota,,,,,,,2026-06-30T08:49:12.917376,2026-06-30T08:49:13.552453,,,10,2.27,0,6451-10,Terminal Capelinha,Hospital Campo Limpo,,,,,,,1,1.0,1.0,,,11.0404,1.0,1.000000
+R012,rota,Qual rota de ônibus faço do Terminal Grajaú até o Terminal Varginha?,"Para ir de ônibus do Terminal Grajaú até o Terminal Varginha, siga estas instruções:
+
+1. **Caminhada até o Terminal Grajaú**:
+   - Distância: 51 m
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **6099-10 - Terminal Grajaú / Divisa de Embu-Guaçu**
+   - Direção: Divisa de Embu-Guaçu
+   - Ponto de partida: Terminal Grajaú
+   - Ponto de chegada: Av. Sen. Teotônio Vilela, 7900
+   - Horário de saída: 8:57 AM
+   - Horário de chegada: 9:11 AM
+   - Distância: 5.1 km
+   - Duração: 15 minutos
+
+3. **Caminhada até o Terminal Varginha**:
+   - Endereço: Av. Paulo Guilguer Reimberg, 13 - Jardim Maria Fernandes
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+A duração total da viagem será de aproximadamente 19 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,10.6541,consultar_rota,consultar_rota,,2026-06-30T08:49:25.387524,2026-06-30T08:49:36.042083,rota,,,,,,,2026-06-30T08:49:24.600608,2026-06-30T08:49:25.387524,,,19,5.33,0,6099-10,Terminal Grajau,"Av. Sen. Teotônio Vilela, 7900",,,,,,,1,1.0,1.0,,,10.6546,1.0,1.000000
+R013,rota,Como chegar de ônibus do Terminal Parelheiros até o Terminal Santo Amaro?,"Para ir de ônibus do Terminal Parelheiros até o Terminal Santo Amaro, siga estas instruções:
+
+1. **Caminhada até o ponto da Rua José Pedro de Borba, 945 - Parada Nacip Haydan**:
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **6091-10 - Vargem Grande / Terminal Santo Amaro**
+   - Direção: Terminal Santo Amaro
+   - Ponto de partida: Rua José Pedro de Borba, 945 - Parada Nacip Haydan
+   - Ponto de chegada: Terminal Santo Amaro
+   - Horário de saída: 8:56 AM
+   - Horário de chegada: 10:12 AM
+   - Distância: 23.2 km
+   - Duração: 1 hora e 16 minutos
+
+3. **Caminhada até o Terminal Santo Amaro**:
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 21 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.5021,consultar_rota,consultar_rota,,2026-06-30T08:49:36.714100,2026-06-30T08:49:48.215169,rota,,,,,,,2026-06-30T08:49:36.042083,2026-06-30T08:49:36.706083,,,81,23.57,0,6091-10,"Rua José Pedro de Borba, 945 - Parada Nacip Haydan",Terminal Santo Amaro,,,,,,,1,0.975,1.0,,,11.5091,1.0,0.991667
+R014,rota,"Quero sair do Terminal João Dias e ir de ônibus até o MASP, na Avenida Paulista.","Para ir de ônibus do Terminal João Dias até o MASP na Avenida Paulista, siga estas instruções:
+
+1. **Caminhada até o Terminal João Dias**:
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **6451-10 - Terminal Capelinha / Terminal Bandeira via Marginal Pinheiros**
+   - Direção: Terminal Bandeira
+   - Ponto de partida: Terminal João Dias
+   - Ponto de chegada: Getúlio Vargas B/C
+   - Horário de saída: 8:55 AM
+   - Horário de chegada: 9:36 AM
+   - Distância: 14.2 km
+   - Duração: 40 minutos
+
+3. **Caminhada até o MASP**:
+   - Endereço: Av. Paulista, 1578 - Bela Vista
+   - Distância: 0.5 km
+   - Duração: 9 minutos
+
+A duração total da viagem será de aproximadamente 52 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,10.6622,consultar_rota,consultar_rota,,2026-06-30T08:49:49.190429,2026-06-30T08:49:59.854591,rota,,,,,,,2026-06-30T08:49:48.215169,2026-06-30T08:49:49.190429,,,52,14.73,0,6451-10,Terminal João Dias,Getúlio Vargas B/C,,,,,,,1,0.75,1.0,,,10.6642,1.0,0.916667
+R015,rota,Como ir de ônibus do Terminal João Dias até o Shopping Jardim Sul?,"Para ir de ônibus do Terminal João Dias até o Shopping Jardim Sul, siga estas instruções:
+
+1. **Caminhada até o Terminal João Dias**:
+   - Distância: 0.1 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **647A-10 - Valo Velho / Pinheiros**
+   - Direção: Pinheiros
+   - Ponto de partida: Terminal João Dias
+   - Ponto de chegada: Av. Giovanni Gronchi, 5819
+   - Horário de saída: 8:55 AM
+   - Horário de chegada: 9:01 AM
+   - Distância: 1.8 km
+   - Duração: 6 minutos
+
+3. **Caminhada até o Shopping Jardim Sul**:
+   - Endereço: R. Itacaiúna, 61 - Piso 1 - Vila Andrade
+   - Distância: 34 m
+   - Duração: 1 minuto
+
+A duração total da viagem será de aproximadamente 9 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,10.6204,consultar_rota,consultar_rota,,2026-06-30T08:50:00.638508,2026-06-30T08:50:11.270459,rota,,,,,,,2026-06-30T08:49:59.857589,2026-06-30T08:50:00.638508,,,9,1.92,0,647A-10,Terminal João Dias,"Av. Giovanni Gronchi, 5819",,,,,,,1,1.0,1.0,,,10.632,1.0,1.000000
+R016,rota,"Qual caminho de ônibus faço do Terminal Campo Limpo até o Largo da Batata, em Pinheiros?","Para ir de ônibus do Terminal Campo Limpo até o Largo da Batata em Pinheiros, siga estas instruções:
+
+1. **Caminhada até o Terminal Campo Limpo**:
+   - Distância: 66 m
+   - Duração: 1 minuto
+
+2. **Ônibus**:
+   - Linha: **857A-10 - Terminal Campo Limpo / Santa Cruz**
+   - Direção: Santa Cruz
+   - Ponto de partida: Terminal Campo Limpo
+   - Ponto de chegada: Rua Butantã, 123 - Parada São Manuel
+   - Horário de saída: 9:00 AM
+   - Horário de chegada: 9:44 AM
+   - Distância: 11.3 km
+   - Duração: 45 minutos
+
+3. **Caminhada até o Largo da Batata**:
+   - Endereço: Av. Brig. Faria Lima, S/N - Pinheiros
+   - Distância: 0.5 km
+   - Duração: 6 minutos
+
+A duração total da viagem será de aproximadamente 53 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.437,consultar_rota,consultar_rota,,2026-06-30T08:50:11.940211,2026-06-30T08:50:23.372430,rota,,,,,,,2026-06-30T08:50:11.270459,2026-06-30T08:50:11.940211,,,53,11.82,0,857A-10,Terminal Campo Limpo,"Rua Butantã, 123 - Parada São Manuel",,,,,,,1,0.975,1.0,,,11.4322,1.0,0.991667
+R017,rota,Como chegar de ônibus do Terminal Campo Limpo até o Shopping Eldorado?,"Para ir de ônibus do Terminal Campo Limpo até o Shopping Eldorado, siga estas instruções:
+
+1. **Caminhada até o Terminal Campo Limpo**:
+   - Distância: 63 m
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **8700-10 - Terminal Campo Limpo / Praça Ramos de Azevedo**
+   - Direção: Praça Ramos de Azevedo
+   - Ponto de partida: Terminal Campo Limpo
+   - Ponto de chegada: Eldorado B/C
+   - Horário de saída: 9:02 AM
+   - Horário de chegada: 9:41 AM
+   - Distância: 11.2 km
+   - Duração: 40 minutos
+
+3. **Caminhada até o Shopping Eldorado**:
+   - Endereço: Av. Rebouças, 3970 - Pinheiros
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+A duração total da viagem será de aproximadamente 44 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.0015,consultar_rota,consultar_rota,,2026-06-30T08:50:24.307121,2026-06-30T08:50:36.316775,rota,,,,,,,2026-06-30T08:50:23.372430,2026-06-30T08:50:24.307121,,,44,11.46,0,8700-10,Terminal Campo Limpo,Eldorado B/C,,,,,,,1,1.0,1.0,,,12.0097,1.0,1.000000
+R018,rota,"Quero ir de ônibus do Terminal Capão Redondo até a Avenida Brigadeiro Faria Lima, 3477.","Para ir de ônibus do Terminal Capão Redondo até a Avenida Brigadeiro Faria Lima, 3477, siga estas instruções:
+
+1. **Caminhada até a Av. Carlos Caldeira Filho, 4301**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **6037-10 - Jardim Mitsutani / Terminal Capelinha via Av. Carlos Lacerda**
+   - Direção: Terminal Capelinha
+   - Ponto de partida: Av. Carlos Caldeira Filho, 4301
+   - Ponto de chegada: Terminal Capelinha
+   - Horário de saída: 9:05 AM
+   - Horário de chegada: 9:08 AM
+   - Distância: 0.8 km
+   - Duração: 4 minutos
+
+3. **Caminhada até o Terminal Capelinha**:
+   - Distância: 52 m
+   - Duração: 1 minuto
+
+4. **Ônibus**:
+   - Linha: **6451-10 - Terminal Capelinha / Terminal Bandeira via Marginal Pinheiros**
+   - Direção: Terminal Bandeira
+   - Ponto de partida: Terminal Capelinha
+   - Ponto de chegada: Av. das Nações Unidas, 15425
+   - Horário de saída: 9:18 AM
+   - Horário de chegada: 9:38 AM
+   - Distância: 7.2 km
+   - Duração: 21 minutos
+
+5. **Ônibus**:
+   - Linha: **648P-10 - Terminal Capelinha / Terminal Pinheiros**
+   - Direção: Terminal Pinheiros
+   - Ponto de partida: Av. das Nações Unidas, 15425
+   - Ponto de chegada: Av. Brg. Faria Lima, 3477 - Parada Juscelino Kubitschek
+   - Horário de saída: 9:42 AM
+   - Horário de chegada: 10:04 AM
+   - Distância: 6.5 km
+   - Duração: 22 minutos
+
+6. **Caminhada até a Avenida Brigadeiro Faria Lima, 3477**:
+   - Distância: 61 m
+   - Duração: 1 minuto
+
+A duração total da viagem será de aproximadamente 1 hora e 2 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,13.8993,consultar_rota,consultar_rota,,2026-06-30T08:50:37.386689,2026-06-30T08:50:51.291214,rota,,,,,,,2026-06-30T08:50:36.316775,2026-06-30T08:50:37.386689,,,62,14.8,2,6037-10|6451-10|648P-10,"Av. Carlos Caldeira Filho, 4301|Terminal Capelinha|Av. das Nações Unidas, 15425","Terminal Capelinha|Av. das Nações Unidas, 15425|Av. Brg. Faria Lima, 3477 - Parada Juscelino Kubitschek",,,,,,,1,1.0,1.0,,,13.9045,1.0,1.000000
+R019,rota,Como ir de ônibus do Terminal Jardim Ângela até o Terminal Santo Amaro?,"Para ir de ônibus do Terminal Jardim Ângela até o Terminal Santo Amaro, siga estas instruções:
+
+1. **Ônibus**:
+   - Linha: **637A-10 - Terminal Jardim Ângela / Terminal Pinheiros**
+   - Direção: Terminal Pinheiros
+   - Ponto de partida: Terminal Jardim Ângela
+   - Ponto de chegada: Av. Dr. Mário Vilas Boas Rodrigues, 175
+   - Horário de saída: 8:56 AM
+   - Horário de chegada: 9:20 AM
+   - Distância: 8.5 km
+   - Duração: 24 minutos
+
+2. **Caminhada até o Terminal Santo Amaro**:
+   - Endereço: Terminal Santo Amaro - Santo Amaro, São Paulo, SP, 04753-060
+   - Distância: 1.0 km
+   - Duração: 14 minutos
+
+A duração total da viagem será de aproximadamente 38 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,14.9277,consultar_rota,consultar_rota,,2026-06-30T08:50:52.082640,2026-06-30T08:51:07.004787,rota,,,,,,,2026-06-30T08:50:51.303479,2026-06-30T08:50:52.082640,,,38,9.48,0,637A-10,Terminal Jardim Angela,"Av. Dr. Mário Vilas Boas Rodrigues, 175",,,,,,,1,0.95,1.0,,,14.9221,1.0,0.983333
+R020,rota,Me diga uma rota de ônibus do Terminal Jardim Ângela até o Hospital Campo Limpo.,"Para ir de ônibus do Terminal Jardim Ângela até o Hospital Campo Limpo, siga estas instruções:
+
+1. **Caminhada até Estr. do M’boi Mirim, 5119 - Parada 1**:
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **563 - Embu-Guaçu (Vila Louro) / São Paulo (Metrô Capão Redondo)**
+   - Direção: Metrô Capão Redondo
+   - Ponto de partida: Estr. do M’boi Mirim, 5119 - Parada 1
+   - Ponto de chegada: Av. Ellis Maas, 65
+   - Horário de saída: 8:59 AM
+   - Horário de chegada: 9:13 AM
+   - Distância: 3.9 km
+   - Duração: 13 minutos
+
+3. **Ônibus**:
+   - Linha: **6045-10 - Valo Velho / Santo Amaro via Capão**
+   - Direção: Santo Amaro
+   - Ponto de partida: Av. Ellis Maas, 65
+   - Ponto de chegada: Estr. de Itapecerica, 1539
+   - Horário de saída: 9:17 AM
+   - Horário de chegada: 9:28 AM
+   - Distância: 2.7 km
+   - Duração: 11 minutos
+
+4. **Caminhada até o Hospital Campo Limpo**:
+   - Endereço: Estr. de Itapecerica, 1661 - Vila Maracana, São Paulo - SP, 05835-005
+   - Distância: 48 m
+   - Duração: 1 minuto
+
+A duração total da viagem será de aproximadamente 31 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,14.2438,consultar_rota,consultar_rota,,2026-06-30T08:51:07.887214,2026-06-30T08:51:22.134421,rota,,,,,,,2026-06-30T08:51:07.004787,2026-06-30T08:51:07.887214,,,31,6.72,1,563|6045-10,"Estr. do M’boi Mirim, 5119 - Parada 1|Av. Ellis Maas, 65","Av. Ellis Maas, 65|Estr. de Itapecerica, 1539",,,,,,,1,0.975,1.0,,,14.2472,1.0,0.991667
+R021,rota,Como chegar de ônibus do Terminal Cidade Tiradentes até o Hospital Santa Marcelina Itaquera?,"Para ir de ônibus do Terminal Cidade Tiradentes até o Hospital Santa Marcelina Itaquera, siga estas instruções:
+
+1. **Ônibus**:
+   - Linha: **3539-10 - Cidade Tiradentes / ↕ Bresser**
+   - Direção: Bresser
+   - Ponto de partida: Terminal Cidade Tiradentes
+   - Ponto de chegada: Rua Harry Dannenberg, 491
+   - Horário de saída: 9:02 AM
+   - Horário de chegada: 9:39 AM
+   - Distância: 12.9 km
+   - Duração: 37 minutos
+
+2. **Caminhada até o Hospital Santa Marcelina**:
+   - Endereço: R. Santa Marcelina, 177 - Vila Carmosina, São Paulo - SP, 08270-070
+   - Distância: 0.5 km
+   - Duração: 8 minutos
+
+A duração total da viagem será de aproximadamente 45 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,16.4656,consultar_rota,consultar_rota,,2026-06-30T08:51:22.912974,2026-06-30T08:51:39.377973,rota,,,,,,,2026-06-30T08:51:22.139330,2026-06-30T08:51:22.912050,,,45,13.35,0,3539-10,Terminal Cidade Tiradentes,"Rua Harry Dannenberg, 491",,,,,,,1,0.95,1.0,,,16.4659,1.0,0.983333
+R022,rota,"Quero ir de ônibus do Terminal Itaquera até o MASP, na Avenida Paulista.","Para ir de ônibus do Terminal Itaquera até o MASP na Avenida Paulista, siga estas instruções:
+
+1. **Caminhada até a Parada Metrô Itaquera**:
+   - Endereço: Rua Dr. Luiz Aires, 3405
+   - Distância: 0.2 km
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **4310-10 - Estação de Transferência Itaquera / Terminal Parque Dom Pedro II**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Rua Dr. Luiz Aires, 3405 - Parada Metrô Itaquera
+   - Ponto de chegada: Av. Alcântara Machado, 91
+   - Horário de saída: 8:57 AM
+   - Horário de chegada: 9:43 AM
+   - Distância: 16.9 km
+   - Duração: 46 minutos
+
+3. **Ônibus**:
+   - Linha: **5630-10 - Terminal Grajaú / ↕ Brás**
+   - Direção: Terminal Grajaú
+   - Ponto de partida: Av. Alcântara Machado, 91
+   - Ponto de chegada: Av. Mercúrio, Oposto Nº 180
+   - Horário de saída: 9:49 AM
+   - Horário de chegada: 9:53 AM
+   - Distância: 1.0 km
+   - Duração: 3 minutos
+
+4. **Ônibus**:
+   - Linha: **6403-10 - Terminal João Dias / Terminal Parque Dom Pedro II**
+   - Direção: Terminal João Dias
+   - Ponto de partida: Av. Mercúrio, Oposto Nº 180
+   - Ponto de chegada: Getúlio Vargas C/B 1
+   - Horário de saída: 10:03 AM
+   - Horário de chegada: 10:15 AM
+   - Distância: 4.3 km
+   - Duração: 12 minutos
+
+5. **Caminhada até o MASP**:
+   - Endereço: Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200
+   - Distância: 0.4 km
+   - Duração: 7 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 26 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,15.1125,consultar_rota,consultar_rota,,2026-06-30T08:51:40.160510,2026-06-30T08:51:55.264670,rota,,,,,,,2026-06-30T08:51:39.380972,2026-06-30T08:51:40.159489,,,86,22.71,2,4310-10|5630-10|6403-10,"Rua Dr. Luiz Aires, 3405 - Parada Metrô Itaquera|Av. Alcântara Machado, 91|Av. Mercúrio, Oposto Nº 180","Av. Alcântara Machado, 91|Av. Mercúrio, Oposto Nº 180|Getúlio Vargas C/B 1",,,,,,,1,0.7,1.0,,,15.1052,1.0,0.900000
+R023,rota,Qual rota de ônibus faço do Terminal São Mateus até o Terminal Parque Dom Pedro II?,"Para ir de ônibus do Terminal São Mateus até o Terminal Parque Dom Pedro II, siga estas instruções:
+
+1. **Ônibus**:
+   - Linha: **4311-10 - Terminal São Mateus / Terminal Parque Dom Pedro II via Aricanduva-Radial Leste**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Terminal de São Mateus
+   - Horário de saída: 8:54 AM
+   - Horário de chegada: 9:55 AM
+   - Distância: 24.3 km
+   - Duração: 1 hora e 1 minuto
+
+2. **Caminhada até o Terminal Parque Dom Pedro II**:
+   - Endereço: Parque Dom Pedro II - Centro Histórico de São Paulo, São Paulo - SP, 01015
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 6 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,13.6957,consultar_rota,consultar_rota,,2026-06-30T08:51:55.982198,2026-06-30T08:52:09.680310,rota,,,,,,,2026-06-30T08:51:55.276921,2026-06-30T08:51:55.982198,,,66,24.52,0,4311-10,Terminal de São Mateus,Terminal Parque Dom Pedro II,,,,,,,1,1.0,1.0,,,13.6981,1.0,1.000000
+R024,rota,Como ir de ônibus do Terminal São Mateus até o Shopping Aricanduva?,"Para ir de ônibus do Terminal São Mateus até o Shopping Aricanduva, siga estas instruções:
+
+1. **Ônibus**:
+   - Linha: **4311-10 - Terminal São Mateus / Terminal Parque Dom Pedro II via Aricanduva-Radial Leste**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Terminal de São Mateus
+   - Ponto de chegada: Av. Aricanduva, 6599
+   - Horário de saída: 8:54 AM
+   - Horário de chegada: 9:13 AM
+   - Distância: 7.7 km
+   - Duração: 19 minutos
+
+2. **Caminhada até o Shopping Aricanduva**:
+   - Endereço: Av. Aricanduva, 5555 - Aricanduva, São Paulo - SP, 03527-900
+   - Distância: 1.3 km
+   - Duração: 19 minutos
+
+A duração total da viagem será de aproximadamente 38 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.4022,consultar_rota,consultar_rota,,2026-06-30T08:52:10.364437,2026-06-30T08:52:22.771219,rota,,,,,,,2026-06-30T08:52:09.681063,2026-06-30T08:52:10.364437,,,38,9.01,0,4311-10,Terminal de São Mateus,"Av. Aricanduva, 6599",,,,,,,1,0.975,1.0,,,12.4068,1.0,0.991667
+R025,rota,Como chegar de ônibus do Terminal Guaianases até o Terminal Parque Dom Pedro II?,"Para ir de ônibus do Terminal Guaianases até o Terminal Parque Dom Pedro II, siga estas instruções:
+
+1. **Caminhada até a Rua Benedito Leite de Ávila**:
+   - Endereço: Rua Benedito Leite de Ávila, 450
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **407P-10 - Terminal Cidade Tiradentes / ↕ Tatuapé**
+   - Direção: Tatuapé
+   - Ponto de partida: Rua Benedito Leite de Ávila, 450
+   - Ponto de chegada: Av. Conde de Frontin, 3025 - Parada Metrô Vila Matilde
+   - Horário de saída: 9:14 AM
+   - Horário de chegada: 9:46 AM
+   - Distância: 13.9 km
+   - Duração: 35 minutos
+
+3. **Ônibus**:
+   - Linha: **4310-10 - Estação de Transferência Itaquera / Terminal Parque Dom Pedro II**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Av. Conde de Frontin, 3025 - Parada Metrô Vila Matilde
+   - Ponto de chegada: Parque Dom Pedro II, 766
+   - Horário de saída: 9:50 AM
+   - Horário de chegada: 10:22 AM
+   - Distância: 12.0 km
+   - Duração: 33 minutos
+
+4. **Caminhada até o Terminal Parque Dom Pedro II**:
+   - Endereço: Parque Dom Pedro II - Centro Histórico de São Paulo, São Paulo - SP, 01015
+   - Distância: 0.1 km
+   - Duração: 1 minuto
+
+A duração total da viagem será de aproximadamente 1 hora e 13 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,14.2375,consultar_rota,consultar_rota,,2026-06-30T08:52:23.448595,2026-06-30T08:52:37.691555,rota,,,,,,,2026-06-30T08:52:22.774216,2026-06-30T08:52:23.448595,,,73,26.23,1,407P-10|4310-10,"Rua Benedito Leite de Ávila, 450|Av. Conde de Frontin, 3025 - Parada Metrô Vila Matilde","Av. Conde de Frontin, 3025 - Parada Metrô Vila Matilde|Parque Dom Pedro II, 766",,,,,,,1,0.95,1.0,,,14.243,1.0,0.983333
+R026,rota,"Quero ir de ônibus da Avenida São Miguel, 5550, em Ermelino Matarazzo, até o Terminal Penha.","Para ir de ônibus da Avenida São Miguel, 5550, em Ermelino Matarazzo, até o Terminal Penha, siga estas instruções:
+
+1. **Caminhada até a Av. Águia de Haia**:
+   - Endereço: Av. Águia de Haia, 4366
+   - Distância: 0.3 km
+   - Duração: 4 minutos
+
+2. **Ônibus**:
+   - Linha: **1177-10 - Terminal A. e. Carvalho / Luz**
+   - Direção: Luz
+   - Ponto de partida: Av. Águia de Haia, 4366
+   - Ponto de chegada: Rua Carlos Meira, 72
+   - Horário de saída: 9:08 AM
+   - Horário de chegada: 9:31 AM
+   - Distância: 8.1 km
+   - Duração: 23 minutos
+
+3. **Caminhada até o Terminal Penha**:
+   - Endereço: Av. Cangaíba, 130 - Cangaiba, São Paulo - SP, 03710-065
+   - Distância: 0.4 km
+   - Duração: 5 minutos
+
+A duração total da viagem será de aproximadamente 32 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.9003,consultar_rota,consultar_rota,,2026-06-30T08:52:38.564557,2026-06-30T08:52:51.467589,rota,,,,,,,2026-06-30T08:52:37.697652,2026-06-30T08:52:38.564557,,,32,8.76,0,1177-10,"Av. Águia de Haia, 4366","Rua Carlos Meira, 72",,,,,,,1,0.95,1.0,,,12.903,1.0,0.983333
+R027,rota,"Qual trajeto de ônibus faço do Largo do Rosário, na Penha, até o Terminal Parque Dom Pedro II?","Para ir de ônibus do Largo do Rosário, na Penha, até o Terminal Parque Dom Pedro II, siga estas instruções:
+
+1. **Caminhada até a Rua Cap. Avelino Carneiro**:
+   - Endereço: Rua Cap. Avelino Carneiro, 233 - Parada Avelino Carneiro
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+2. **Ônibus**:
+   - Linha: **2666-10 - Jardim Camargo Velho / Terminal Parque Dom Pedro II**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Rua Cap. Avelino Carneiro, 233
+   - Horário de saída: 9:10 AM
+   - Horário de chegada: 9:43 AM
+   - Distância: 9.8 km
+   - Duração: 33 minutos
+
+3. **Caminhada até o Terminal Parque Dom Pedro II**:
+   - Endereço: Parque Dom Pedro II - Centro Histórico de São Paulo, São Paulo - SP, 01015
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+A duração total da viagem será de aproximadamente 42 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,13.8712,consultar_rota,consultar_rota,,2026-06-30T08:52:52.418669,2026-06-30T08:53:06.289789,rota,,,,,,,2026-06-30T08:52:51.471594,2026-06-30T08:52:52.418669,,,42,10.4,0,2666-10,"Rua Cap. Avelino Carneiro, 233 - Parada Avelino Carneiro",Terminal Parque Dom Pedro II,,,,,,,1,0.975,1.0,,,13.8711,1.0,0.991667
+R028,rota,"Como ir de ônibus da Avenida Waldemar Carlos Pereira, 1700, na Vila Matilde, até o Terminal Aricanduva?","Para ir de ônibus da Avenida Waldemar Carlos Pereira, 1700, na Vila Matilde, até o Terminal Aricanduva, siga estas instruções:
+
+1. **Ônibus**:
+   - Linha: **403A-10 - CPTM José Bonifácio / Terminal Penha**
+   - Direção: Terminal Penha
+   - Ponto de partida: Av. Waldemar Carlos Pereira, 1693 (próximo ao seu local)
+   - Ponto de chegada: Rua Guaiaúna, 149
+   - Horário de saída: 9:07 AM
+   - Horário de chegada: 9:31 AM
+   - Distância: 7.1 km
+   - Duração: 27 minutos
+
+2. **Caminhada até o Terminal Aricanduva**:
+   - Endereço: Largo do Rosário, 105 - Penha de França, São Paulo - SP, 03634-020
+   - Distância: 0.4 km
+   - Duração: 5 minutos
+
+A duração total da viagem será de aproximadamente 29 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.2894,consultar_rota,consultar_rota,,2026-06-30T08:53:07.028477,2026-06-30T08:53:19.317293,rota,,,,,,,2026-06-30T08:53:06.293396,2026-06-30T08:53:07.028477,,,29,7.49,0,403A-10,"Av. Waldemar Carlos Pereira, 1693","Rua Guaiaúna, 149",,,,,,,1,0.95,1.0,,,12.2888,1.0,0.983333
+R029,rota,"Me mostre uma rota de ônibus do Terminal Carrão até o MASP, na Avenida Paulista.","Para ir de ônibus do Terminal Carrão até o MASP, na Avenida Paulista, siga estas instruções:
+
+1. **Caminhada até o Terminal Carrão**:
+   - Distância: 76 metros
+   - Duração: 1 minuto
+
+2. **Ônibus**:
+   - Linha: **4315-10 - Terminal Vila Carrão / Terminal Parque Dom Pedro II via Aricanduva-Radial Leste**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Terminal Carrão
+   - Horário de saída: 9:10 AM
+   - Horário de chegada: 9:52 AM
+   - Distância: 14.1 km
+   - Duração: 42 minutos
+
+3. **Caminhada até o Terminal Parque Dom Pedro II**:
+   - Distância: 0.1 km
+   - Duração: 4 minutos
+
+4. **Ônibus**:
+   - Linha: **6403-10 - Terminal João Dias / Terminal Parque Dom Pedro II**
+   - Direção: Terminal João Dias
+   - Ponto de partida: Terminal Parque Dom Pedro II
+   - Horário de saída: 10:00 AM
+   - Horário de chegada: 10:15 AM
+   - Distância: 5.3 km
+   - Duração: 15 minutos
+
+5. **Caminhada até o MASP**:
+   - Endereço: Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200
+   - Distância: 0.4 km
+   - Duração: 7 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 14 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.2491,consultar_rota,consultar_rota,,2026-06-30T08:53:20.115873,2026-06-30T08:53:32.365474,rota,,,,,,,2026-06-30T08:53:19.320345,2026-06-30T08:53:20.115873,,,74,19.99,1,4315-10|6403-10,Terminal Carrão|Terminal Parque Dom Pedro II,Terminal Parque Dom Pedro II|Getúlio Vargas C/B 1,,,,,,,1,0.975,1.0,,,12.2496,1.0,0.991667
+R030,rota,Como chegar de ônibus do Shopping Aricanduva até o Terminal Tatuapé?,"Para ir de ônibus do Shopping Aricanduva até o Terminal Tatuapé, siga estas instruções:
+
+1. **Caminhada até a Av. Aricanduva, 5831**:
+   - Distância: 1.3 km
+   - Duração: 17 minutos
+
+2. **Ônibus**:
+   - Linha: **4311-10 - Terminal São Mateus / Terminal Parque Dom Pedro II via Aricanduva-Radial Leste**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Av. Aricanduva, 5831
+   - Horário de saída: 9:14 AM
+   - Horário de chegada: 9:37 AM
+   - Distância: 9.1 km
+   - Duração: 23 minutos
+
+3. **Caminhada até o Terminal Metrô Tatuapé - Sul**:
+   - Distância: 0.3 km
+   - Duração: 4 minutos
+
+4. **Ônibus**:
+   - Linha: **372U-10 - Vila Santa Isabel / ↕ Tatuapé**
+   - Direção: Vila Santa Isabel
+   - Ponto de partida: Terminal Metrô Tatuapé - Sul
+   - Horário de saída: 9:50 AM
+   - Horário de chegada: 9:58 AM
+   - Distância: 2.2 km
+   - Duração: 8 minutos
+
+5. **Caminhada até o Terminal Tatuapé**:
+   - Endereço: R. Mal. Barbacena, 1416 - Tatuapé, São Paulo - SP, 03333-000
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 3 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,26.4363,consultar_rota,consultar_rota,,2026-06-30T08:53:33.524208,2026-06-30T08:53:59.957557,rota,,,,,,,2026-06-30T08:53:32.368852,2026-06-30T08:53:33.524208,,,63,13.08,1,4311-10|372U-10,"Av. Aricanduva, 5831|Terminal Metrô Tatuapé - Sul","Rua Melo Freire, 355 - Parada Metrô Tatuapé B/C|Rua Maria Otília, 210",,,,,,,1,0.945,1.0,,,26.4333,1.0,0.981667
+R031,rota,"Como ir de ônibus, com menos caminhada, do Terminal Santana até o MASP, na Avenida Paulista?","Para ir de ônibus do Terminal Santana até o MASP, na Avenida Paulista, priorizando menos caminhada, siga estas instruções:
+
+1. **Caminhada até o Terminal Metrô Santana**:
+   - Distância: 0.1 km
+   - Duração: 1 minuto
+
+2. **Ônibus**:
+   - Linha: **106A-10 - ↕ Santana / Itaim Bibi**
+   - Direção: Itaim Bibi
+   - Ponto de partida: Terminal Metrô Santana
+   - Horário de saída: 9:00 AM
+   - Horário de chegada: 9:29 AM
+   - Distância: 8.5 km
+   - Duração: 29 minutos
+
+3. **Caminhada até o MASP**:
+   - Endereço: Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200
+   - Distância: 0.4 km
+   - Duração: 8 minutos
+
+A duração total da viagem será de aproximadamente 38 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.5796,consultar_rota,consultar_rota,,2026-06-30T08:54:00.554012,2026-06-30T08:54:12.134595,rota,,,,,,,2026-06-30T08:53:59.957557,2026-06-30T08:54:00.554012,,,38,9.02,0,106A-10,Terminal Metrô Santana,Getúlio Vargas C/B 2,,,,,,,1,0.945,1.0,,,11.5806,1.0,0.981667
+R032,rota,"Qual rota de ônibus faço da Praça Centenário da Casa Verde até o Largo da Batata, em Pinheiros?","Para ir de ônibus da Praça Centenário da Casa Verde até o Largo da Batata, em Pinheiros, siga estas instruções:
+
+1. **Caminhada até a Rua Carandaí, 322**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **175P-10 - ↕ Santana / ↕ Ana Rosa**
+   - Direção: ↕ Ana Rosa
+   - Ponto de partida: Rua Carandaí, 322
+   - Horário de saída: 9:18 AM
+   - Horário de chegada: 9:45 AM
+   - Distância: 8.4 km
+   - Duração: 28 minutos
+
+3. **Ônibus**:
+   - Linha: **856R-10 - Lapa / Socorro**
+   - Direção: Socorro
+   - Ponto de partida: Av. Dr. Arnaldo, 757
+   - Horário de saída: 9:52 AM
+   - Horário de chegada: 10:03 AM
+   - Distância: 2.7 km
+   - Duração: 10 minutos
+
+4. **Caminhada até o Largo da Batata**:
+   - Distância: 40 metros
+   - Duração: 1 minuto
+
+A duração total da viagem será de aproximadamente 48 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.6982,consultar_rota,consultar_rota,,2026-06-30T08:54:12.894954,2026-06-30T08:54:25.586289,rota,,,,,,,2026-06-30T08:54:12.139187,2026-06-30T08:54:12.894954,,,49,11.41,1,175P-10|856R-10,"Rua Carandaí, 322|Av. Dr. Arnaldo, 757","Av. Dr. Arnaldo, 757|Av. Brg. Faria Lima, 870 - Parada 2/Faria Lima",,,,,,,1,0.95,1.0,,,12.6913,1.0,0.983333
+R033,rota,Como chegar de ônibus do Largo da Matriz de Nossa Senhora do Ó até o Terminal Barra Funda?,"Para ir de ônibus do Largo da Matriz de Nossa Senhora do Ó até o Terminal Barra Funda, siga estas instruções:
+
+1. **Caminhada até a R. Javoraú**:
+   - Distância: 0.5 km
+   - Duração: 7 minutos
+
+2. **Ônibus**:
+   - Linha: **8528-10 - Jardim Guarani / Praça do Correio**
+   - Direção: Praça do Correio
+   - Ponto de partida: R. Javoraú
+   - Horário de saída: 9:10 AM
+   - Horário de chegada: 9:32 AM
+   - Distância: 5.5 km
+   - Duração: 22 minutos
+
+3. **Caminhada até o Terminal Rodoviário Barra Funda**:
+   - Endereço: Terminal Rodoviário Barra Funda, Barra Funda, São Paulo - SP, 01156-001
+   - Distância: 0.5 km
+   - Duração: 9 minutos
+
+A duração total da viagem será de aproximadamente 38 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.397,consultar_rota,consultar_rota,,2026-06-30T08:54:26.457622,2026-06-30T08:54:37.859117,rota,,,,,,,2026-06-30T08:54:25.602251,2026-06-30T08:54:26.457622,,,38,6.5,0,8528-10,R. Javoraú,Terminal Metrô Barra Funda Norte,,,,,,,1,0.945,1.0,,,11.4015,1.0,0.981667
+R034,rota,Quero ir de ônibus do Terminal Brasilândia até o Terminal Barra Funda.,"Para ir de ônibus do Terminal Brasilândia até o Terminal Barra Funda, siga estas instruções:
+
+1. **Caminhada até a Estr. do Sabão, 1547**:
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+2. **Ônibus**:
+   - Linha: **9785-10 - Vila Terezinha / ↕ Barra Funda**
+   - Direção: ↕ Barra Funda
+   - Ponto de partida: Estr. do Sabão, 1547
+   - Horário de saída: 9:07 AM
+   - Horário de chegada: 9:47 AM
+   - Distância: 12.1 km
+   - Duração: 40 minutos
+
+3. **Caminhada até o Terminal Rodoviário Barra Funda**:
+   - Endereço: Terminal Rodoviário Barra Funda, Barra Funda, São Paulo - SP, 01156-001
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+A duração total da viagem será de aproximadamente 47 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.5624,consultar_rota,consultar_rota,,2026-06-30T08:54:38.542145,2026-06-30T08:54:50.105041,rota,,,,,,,2026-06-30T08:54:37.862113,2026-06-30T08:54:38.542145,,,47,12.49,0,9785-10,"Estr. do Sabão, 1547","Av. Auro Soares De Moura Andrade, 0",,,,,,,1,0.945,1.0,,,11.5629,1.0,0.981667
+R035,rota,Como ir de ônibus do Terminal Tucuruvi até o Hospital das Clínicas da FMUSP?,"Para ir de ônibus do Terminal Tucuruvi até o Hospital das Clínicas da FMUSP, siga estas instruções:
+
+1. **Caminhada até a Av. Nova Cantareira, 2739**:
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+2. **Ônibus**:
+   - Linha: **1018-10 - Vila Rosa / ↕ Santana**
+   - Direção: ↕ Santana
+   - Ponto de partida: Av. Nova Cantareira, 2739
+   - Horário de saída: 9:11 AM
+   - Horário de chegada: 9:29 AM
+   - Distância: 4.5 km
+   - Duração: 18 minutos
+
+3. **Caminhada até a Rua Leite de Morais, 250 (Ponto Final da Linha 175t)**:
+   - Distância: 62 metros
+   - Duração: 1 minuto
+
+4. **Ônibus**:
+   - Linha: **175T-10 - ↕ Santana / ↕ Jabaquara**
+   - Direção: ↕ Jabaquara
+   - Ponto de partida: Rua Leite de Morais, 250
+   - Horário de saída: 9:35 AM
+   - Horário de chegada: 9:48 AM
+   - Distância: 4.8 km
+   - Duração: 14 minutos
+
+5. **Caminhada até a Av. Sen. Queirós, Oposto Nº 151**:
+   - Distância: 0.1 km
+   - Duração: 1 minuto
+
+6. **Ônibus**:
+   - Linha: **702C-10 - Jardim Bonfiglioli / ↕ Belém**
+   - Direção: Jardim Bonfiglioli
+   - Ponto de partida: Av. Sen. Queirós, Oposto Nº 151
+   - Horário de saída: 9:59 AM
+   - Horário de chegada: 10:14 AM
+   - Distância: 4.2 km
+   - Duração: 15 minutos
+
+7. **Caminhada até o Hospital das Clínicas**:
+   - Endereço: R. Dr. Ovídio Pires de Campos, 225 - Cerqueira César, São Paulo - SP, 05403-010
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 13 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,19.2842,consultar_rota,consultar_rota,,2026-06-30T08:54:50.878284,2026-06-30T08:55:10.166461,rota,,,,,,,2026-06-30T08:54:50.107052,2026-06-30T08:54:50.878284,,,63,13.37,2,2025-10|701U-10|7545-10,"Av. Luiz Dumont Villares, 2425|Terminal Metrô Santana|Consolacao",Terminal Metrô Santana|Consolacao|Clínicas C/B,,,,,,,1,0.85,1.0,,,19.2882,1.0,0.950000
+R036,rota,Qual trajeto de ônibus faço do Terminal Jaçanã até o Terminal Parque Dom Pedro II?,"Para ir de ônibus do Terminal Jaçanã até o Terminal Parque Dom Pedro II, siga estas instruções:
+
+1. **Caminhada até a Av. Luís Stamatis, 657**:
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+2. **Ônibus**:
+   - Linha: **042 - Mairiporã (Divisa) / São Paulo (Terminal Rodoviário Tietê) via Metrô Tucuruvi**
+   - Direção: Terminal Tietê via Metrô Tucuruvi
+   - Ponto de partida: Av. Luís Stamatis, 657
+   - Horário de saída: 9:04 AM
+   - Horário de chegada: 9:29 AM
+   - Distância: 9.8 km
+   - Duração: 24 minutos
+
+3. **Ônibus**:
+   - Linha: **218 - São Bernardo do Campo (Área Verde) / São Paulo (Terminal Rodoviário Tietê)**
+   - Direção: Área Verde (Seletivo)
+   - Ponto de partida: Av. Cruzeiro do Sul, 1877
+   - Horário de saída: 9:42 AM
+   - Horário de chegada: 9:53 AM
+   - Distância: 3.8 km
+   - Duração: 11 minutos
+
+4. **Caminhada até o Terminal Parque Dom Pedro II**:
+   - Endereço: Terminal Parque Dom Pedro II, Parque Dom Pedro II - Centro Histórico de São Paulo, São Paulo - SP, 01015
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+A duração total da viagem será de aproximadamente 53 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,13.9824,consultar_rota,consultar_rota,,2026-06-30T08:55:10.894116,2026-06-30T08:55:24.888895,rota,,,,,,,2026-06-30T08:55:10.166461,2026-06-30T08:55:10.894116,,,53,13.88,1,042|218,"Av. Luís Stamatis, 657|Av. Cruzeiro do Sul, 1877","Av. Cruzeiro do Sul, 1877|Parque Dom Pedro II, 450",,,,,,,1,0.975,1.0,,,13.9948,1.0,0.991667
+R037,rota,Como chegar de ônibus do Terminal Pirituba até o Shopping Tietê Plaza?,"Para ir de ônibus do Terminal Pirituba até o Shopping Tietê Plaza, siga estas instruções:
+
+1. **Caminhada até a Av. Raimundo Pereira de Magalhães, 5215 - Parada Agarum C/B**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **361 - Francisco Morato (Parque 120) / São Paulo (Terminal Rodoviário Barra Funda)**
+   - Direção: Metrô Barra Funda
+   - Ponto de partida: Av. Raimundo Pereira de Magalhães, 5215
+   - Horário de saída: 9:07 AM
+   - Horário de chegada: 9:15 AM
+   - Distância: 3.4 km
+   - Duração: 11 minutos
+
+3. **Caminhada até o Shopping Tietê Plaza**:
+   - Endereço: Av. Raimundo Pereira de Magalhães, 1465 - Jardim Iris, São Paulo - SP, 05145-000
+   - Distância: 0.2 km
+   - Duração: 1 minuto
+
+A duração total da viagem será de aproximadamente 11 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.719,consultar_rota,consultar_rota,,2026-06-30T08:55:25.664521,2026-06-30T08:55:37.383990,rota,,,,,,,2026-06-30T08:55:24.888895,2026-06-30T08:55:25.664521,,,11,3.76,0,361,"Av. Raimundo Pereira de Magalhães, 5215 - Parada Agarum C/B","Av. Raimundo Pereira de Magalhães, 1465",,,,,,,1,0.95,1.0,,,11.7195,1.0,0.983333
+R038,rota,Me indique uma rota de ônibus do Terminal Jaraguá até o Terminal Pirituba.,"Parece que houve um erro na consulta, pois a rota que foi encontrada refere-se a um trajeto de longa distância entre Jaraguá do Sul e São Paulo, e não especificamente do Terminal Jaraguá. Deixe-me transferir novamente a tarefa para garantir que consigamos as informações corretas.Para ir de ônibus do Terminal Jaraguá até o Terminal Pirituba, siga estas instruções:
+
+1. **Caminhada até a estação Jaraguá**:
+   - Distância: 1.0 km
+   - Duração: 14 minutos
+
+2. **Trem**:
+   - Linha: **Linha 7 - Rubi**
+   - Direção: Palmeiras-Barra Funda
+   - Horário de saída: 9:12 AM
+   - Horário de chegada: 9:18 AM
+   - Distância: 5.0 km
+   - Duração: 5 minutos
+
+3. **Caminhada até o Terminal Pirituba**:
+   - Endereço: Terminal Pirituba - Jardim Cidade Pirituba, São Paulo - SP, 05140-020
+   - Distância: 0.4 km
+   - Duração: 6 minutos
+
+A duração total da viagem será de aproximadamente 25 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,24.934,consultar_rota,consultar_rota,,2026-06-30T08:55:38.200158,2026-06-30T08:56:03.136473,rota,,,,,,,2026-06-30T08:55:37.385990,2026-06-30T08:55:38.200158,,,37,9.64,1,8594-10|361,"Av. Jerimanduba, 209|Av. Raimundo Pereira de Magalhães, 10215","Av. Raimundo Pereira de Magalhães, 10215|Av. Raimundo Pereira de Magalhães, 5215 - Parada Agarum C/B",,,,,,,1,0.825,1.0,,,24.9363,1.0,0.941667
+R039,rota,Como ir de ônibus do Terminal Vila Maria até o Mercado Municipal do Brás?,"Para ir de ônibus do Terminal Vila Maria até o Mercado Municipal do Brás, siga estas instruções:
+
+1. **Caminhada até a Av. Guilherme Cotching, 1551**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **1206-10 - Parque Vila Maria / Correio**
+   - Direção: Correio
+   - Ponto de partida: Av. Guilherme Cotching, 1551
+   - Horário de saída: 9:15 AM
+   - Horário de chegada: 9:40 AM
+   - Distância: 6.9 km
+   - Duração: 26 minutos
+
+3. **Caminhada até o Mercado Municipal do Brás**:
+   - Endereço: R. da Cantareira, 306 - Centro Histórico de São Paulo, São Paulo - SP, 01024-900
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+A duração total da viagem será de aproximadamente 32 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,24.2077,consultar_rota,consultar_rota,,2026-06-30T08:56:04.163645,2026-06-30T08:56:28.376077,rota,,,,,,,2026-06-30T08:56:03.140486,2026-06-30T08:56:04.163645,,,32,7.34,0,1206-10,"Av. Guilherme Cotching, 1551","Av. Sen. Queirós, Oposto Nº 586",,,,,,,1,0.92,1.0,,,24.2124,1.0,0.973333
+R040,rota,Quero ir de ônibus do Shopping Center Norte até o Terminal Santana.,"Para ir de ônibus do Shopping Center Norte até o Terminal Santana, siga estas instruções:
+
+1. **Caminhada até a Av. Otto Baumgart, 450 - Ponto Final da Linha 1760**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **1760-10 - COHAB Antártica / Shopping Center Norte**
+   - Direção: COHAB Antártica
+   - Ponto de partida: Av. Otto Baumgart, 450
+   - Horário de saída: 9:07 AM
+   - Horário de chegada: 9:18 AM
+   - Distância: 2.8 km
+   - Duração: 12 minutos
+
+3. **Caminhada até o Terminal Santana**:
+   - Endereço: Santana, São Paulo - SP, 02034-001
+   - Distância: 0.2 km
+   - Duração: 2 minutos
+
+A duração total da viagem será de aproximadamente 17 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.7353,consultar_rota,consultar_rota,,2026-06-30T08:56:28.944117,2026-06-30T08:56:41.682538,rota,,,,,,,2026-06-30T08:56:28.376077,2026-06-30T08:56:28.944117,,,17,3.11,0,1760-10,"Av. Otto Baumgart, 450 - Ponto Final da Linha 1760","Av. Cruzeiro do Sul, 3200 - Parada 2/Metrô Santana",,,,,,,1,0.92,1.0,,,12.7384,1.0,0.973333
+R041,rota,"Como chegar de ônibus da Rua da Mooca, 2000, até o Mercado Municipal de São Paulo?","Para ir de ônibus da Rua da Mooca, 2000 até o Mercado Municipal de São Paulo, siga estas instruções:
+
+1. **Caminhada até a Rua João Antônio de Oliveira, 155**:
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+2. **Trolebus**:
+   - Linha: **2100-10 - Terminal Vila Carrão / Praça da Sé**
+   - Direção: Praça da Sé
+   - Ponto de partida: Rua João Antônio de Oliveira, 155
+   - Horário de saída: 9:05 AM
+   - Horário de chegada: 9:11 AM
+   - Distância: 1.5 km
+   - Duração: 7 minutos
+
+3. **Ônibus**:
+   - Linha: **5630-10 - Terminal Grajaú / Brás**
+   - Direção: Terminal Grajaú
+   - Ponto de partida: Av. Alcântara Machado, 773
+   - Horário de saída: 9:17 AM
+   - Horário de chegada: 9:24 AM
+   - Distância: 2.3 km
+   - Duração: 7 minutos
+
+4. **Caminhada até o Mercado Municipal**:
+   - Endereço: R. da Cantareira, 306 - Centro Histórico de São Paulo, SP, 01024-900
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+A duração total da viagem será de aproximadamente 24 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,13.0509,consultar_rota,consultar_rota,,2026-06-30T08:56:42.585842,2026-06-30T08:56:55.638211,rota,,,,,,,2026-06-30T08:56:41.686564,2026-06-30T08:56:42.585842,,,24,4.15,1,2100-10|5630-10,"Rua João Antônio de Oliveira, 155|Av. Alcântara Machado, 773","Av. Alcântara Machado, 773|Av. Sen. Queirós, Oposto Nº 586",,,,,,,1,0.95,1.0,,,13.0524,1.0,0.983333
+R042,rota,"Qual caminho de ônibus faço da Rua Vergueiro, 1000, até a Rua Cardeal Arcoverde, 2026?","Para ir de ônibus da Rua Vergueiro, 1000 até a Rua Cardeal Arcoverde, 2026, siga estas instruções:
+
+1. **Caminhada até a Av. Bernardino de Campos, 159**:
+   - Distância: 0.6 km
+   - Duração: 9 minutos
+
+2. **Ônibus**:
+   - Linha: **378 - Santana de Parnaíba (Terminal Rodoviário Alphaville) / São Paulo (Metrô Paraíso)**
+   - Direção: Terminal Rodoviário Alphaville
+   - Ponto de partida: Av. Bernardino de Campos, 159
+   - Horário de saída: 9:25 AM
+   - Horário de chegada: 9:44 AM
+   - Distância: 6.1 km
+   - Duração: 18 minutos
+
+A duração total da viagem será de aproximadamente 27 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.4899,consultar_rota,consultar_rota,,2026-06-30T08:56:56.464560,2026-06-30T08:57:08.958153,rota,,,,,,,2026-06-30T08:56:55.638211,2026-06-30T08:56:56.464560,,,27,6.68,0,378,"Av. Bernardino de Campos, 159","Rua Cardeal Arcoverde, 2026",,,,,,,1,0.975,1.0,,,12.4936,1.0,0.991667
+R043,rota,"Como ir de ônibus do Terminal Sacomã até o MASP, na Avenida Paulista?","Para ir de ônibus do Terminal Sacomã até o MASP na Avenida Paulista, siga estas instruções:
+
+1. **Caminhada até a estação Sacomã**:
+   - Distância: 0.5 km
+   - Duração: 9 minutos
+
+2. **Metrô**:
+   - Linha: **Linha 2 - Verde**
+   - Direção: Vila Madalena
+   - Ponto de partida: Sacomã
+   - Horário de saída: 9:07 AM
+   - Horário de chegada: 9:22 AM
+   - Distância no metrô: 7.6 km
+   - Duração: 15 minutos
+
+3. **Caminhada até o MASP**:
+   - Endereço: Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+A duração total da viagem será de aproximadamente 28 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.7852,consultar_rota,consultar_rota,,2026-06-30T08:57:09.997038,2026-06-30T08:57:21.773258,rota,,,,,,,2026-06-30T08:57:08.959126,2026-06-30T08:57:09.995057,,,52,10.62,2,5103-10|5290-10|175P-10,"Terminal Sacomã-Vereador Osvaldo Giannotti|Rua Domingos de Morais, 2565 - Parada Metrô Santa Cruz B/C|Av. Prof. Noé Azevedo, 205 - Parada Dona Júlia","Rua Loefgren, 1060|Av. Prof. Noé Azevedo, 205 - Parada Dona Júlia|Av. Paulista, 1374",,,,,,,1,0.5,1.0,,,11.7782,1.0,0.833333
+R044,rota,Quero sair do Terminal Vila Prudente e chegar de ônibus ao Shopping Aricanduva.,"Para ir de ônibus do Terminal Vila Prudente até o Shopping Aricanduva, siga estas instruções:
+
+1. **Caminhada até a Rua Ibitirama, 183**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **3134-10 - Shopping Aricanduva / Tamanduateí**
+   - Direção: Shopping Aricanduva
+   - Ponto de partida: Rua Ibitirama, 183
+   - Horário de saída: 9:09 AM
+   - Horário de chegada: 9:50 AM
+   - Distância: 11.8 km
+   - Duração: 42 minutos
+
+3. **Caminhada até o Shopping Aricanduva**:
+   - Endereço: Av. Aricanduva, 5555 - Aricanduva, São Paulo - SP, 03527-900
+   - Distância: 1.2 km
+   - Duração: 17 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 2 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,13.3161,consultar_rota,consultar_rota,,2026-06-30T08:57:22.546760,2026-06-30T08:57:35.858725,rota,,,,,,,2026-06-30T08:57:21.783411,2026-06-30T08:57:22.546760,,,62,13.22,0,3134-10,"Rua Ibitirama, 183",Av. Principal Leste - Shopping Leste Aricanduva,,,,,,,1,0.92,1.0,,,13.312,1.0,0.973333
+R045,rota,Como chegar de ônibus do Terminal Saúde até o Estádio do Morumbi?,"Para ir de ônibus do Terminal Saúde até o Estádio do Morumbi, siga estas instruções:
+
+1. **Ônibus**:
+   - Linha: **502J-10 - Estação Autódromo / Santa Cruz**
+   - Direção: Estação Autódromo
+   - Ponto de partida: Avenida Jabaquara, 1646
+   - Horário de saída: 8:59 AM
+   - Horário de chegada: 9:11 AM
+   - Distância: 3.2 km
+   - Duração: 15 minutos
+
+2. **Ônibus**:
+   - Linha: **857C-10 - Terminal Campo Limpo / Conceição**
+   - Direção: Terminal Campo Limpo
+   - Ponto de partida: Av. Pedro Bueno, 1448
+   - Horário de saída: 9:19 AM
+   - Horário de chegada: 9:29 AM
+   - Distância: 3.1 km
+   - Duração: 10 minutos
+
+3. **Ônibus**:
+   - Linha: **776M-10 - Terminal Água Espraiada / Aeroporto**
+   - Direção: Terminal Água Espraiada
+   - Ponto de partida: Av. Jornalista Roberto Marinho, 2305 - Parada Constantino de Sousa
+   - Horário de saída: 9:33 AM
+   - Horário de chegada: 9:44 AM
+   - Distância: 2.7 km
+   - Duração: 11 minutos
+
+4. **Caminhada até Av. Morumbi, 7691**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+5. **Ônibus**:
+   - Linha: **807J-10 - Terminal Campo Limpo / Shopping Morumbi**
+   - Direção: Terminal Campo Limpo
+   - Ponto de partida: Av. Morumbi, 7691
+   - Horário de saída: 9:54 AM
+   - Horário de chegada: 10:09 AM
+   - Distância: 4.1 km
+   - Duração: 15 minutos
+
+6. **Caminhada até o Estádio do Morumbi**:
+   - Endereço: Praça Roberto Gomes Pedrosa, 1 - Morumbi, São Paulo - SP, 05653-070
+   - Distância: 0.1 km
+   - Duração: 2 minutos
+
+A duração total da viagem será de aproximadamente 1 hora e 12 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,19.1569,consultar_rota,consultar_rota,,2026-06-30T08:57:36.632654,2026-06-30T08:57:55.784068,rota,,,,,,,2026-06-30T08:57:35.866749,2026-06-30T08:57:36.632654,,,72,13.44,3,502J-10|857C-10|776M-10|807J-10,"Avenida Jabaquara 1646, São Paulo - São Paulo, 04046, Brasil|Av. Pedro Bueno, 1448|Av. Jornalista Roberto Marinho, 2305 - Parada Constantino de Sousa|Av. Morumbi, 7691","Av. Pedro Bueno, 1448|Av. Jornalista Roberto Marinho, 2305 - Parada Constantino de Sousa|Baltazar Fernandes C/B|Av. Jules Rimet, 231 - Oposto Estádio do Morumbi, Portão 4",,,,,,,1,0.975,1.0,,,19.1514,1.0,0.991667
+R046,rota,Me mostre uma rota de ônibus do Terminal Sacomã até o Terminal Parque Dom Pedro II.,"Para ir de ônibus do Terminal Sacomã até o Terminal Parque Dom Pedro II, siga estas instruções:
+
+1. **Ônibus**:
+   - Linha: **5105-10 - Terminal Sacomã / Terminal Mercado**
+   - Direção: Terminal Mercado
+   - Ponto de partida: Terminal Sacomã - Vereador Osvaldo Giannotti
+   - Horário de saída: 9:00 AM
+   - Horário de chegada: 9:10 AM
+   - Distância: 3.7 km
+   - Duração: 11 minutos
+
+2. **Caminhada até Av. do Estado, 7929**:
+   - Distância: 45 m
+   - Duração: 1 minuto
+
+3. **Ônibus**:
+   - Linha: **5143-10 - Terminal Sapopemba / Terminal Parque Dom Pedro II via Anhaia Mello**
+   - Direção: Terminal Parque Dom Pedro II
+   - Ponto de partida: Av. do Estado, 7929
+   - Horário de saída: 9:15 AM
+   - Horário de chegada: 9:33 AM
+   - Distância: 5.6 km
+   - Duração: 18 minutos
+
+4. **Caminhada até o Terminal Parque Dom Pedro II**:
+   - Endereço: Terminal Parque Dom Pedro II - Parque Dom Pedro II - Centro Histórico de São Paulo, São Paulo - SP, 01015
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+A duração total da viagem será de aproximadamente 38 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,13.8655,consultar_rota,consultar_rota,,2026-06-30T08:57:56.579972,2026-06-30T08:58:10.442957,rota,,,,,,,2026-06-30T08:57:55.793106,2026-06-30T08:57:56.572334,,,38,9.59,1,5105-10|5143-10,"Terminal Sacomã-Vereador Osvaldo Giannotti|Av. do Estado, 7929",Clube Atlético Ypiranga|Terminal Parque Dom Pedro II,,,,,,,1,1.0,1.0,,,13.8706,1.0,1.000000
+R047,rota,"Como ir de ônibus da Praça General Polidoro, na Aclimação, até o Shopping Eldorado?","Para ir de ônibus da Praça General Polidoro, na Aclimação, até o Shopping Eldorado, siga estas instruções:
+
+1. **Caminhada até a Av. da Aclimação, 666**:
+   - Distância: 0.2 km
+   - Duração: 3 minutos
+
+2. **Ônibus**:
+   - Linha: **857R-10 - Terminal Campo Limpo / Aclimação**
+   - Direção: Terminal Campo Limpo
+   - Ponto de partida: Av. da Aclimação, 666
+   - Horário de saída: 9:08 AM
+   - Horário de chegada: 9:43 AM
+   - Distância: 9.3 km
+   - Duração: 35 minutos
+
+3. **Caminhada até o Shopping Eldorado**:
+   - Endereço: Av. Rebouças, 3970 - Pinheiros, São Paulo - SP, 05402-600
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+A duração total da viagem será de aproximadamente 42 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.675,consultar_rota,consultar_rota,,2026-06-30T08:58:11.262923,2026-06-30T08:58:23.953047,rota,,,,,,,2026-06-30T08:58:10.447413,2026-06-30T08:58:11.262923,,,42,9.78,0,857R-10,"Av. da Aclimação, 666",Eldorado C/B 2,,,,,,,1,0.92,1.0,,,12.6901,1.0,0.973333
+R048,rota,"Qual rota de ônibus faço da Avenida Santo Amaro, 5130, no Brooklin, até o Shopping Morumbi?","Para ir de ônibus da Avenida Santo Amaro, 5130, no Brooklin, até o Shopping Morumbi, siga estas instruções:
+
+1. **Caminhada até a Estação de Transferência Santo Amaro/Brooklin**:
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+2. **Ônibus**:
+   - Linha: **376 - Diadema (Terminal Diadema) / São Paulo (Brooklin)**
+   - Direção: Brooklin
+   - Ponto de partida: Estação de Transferência Santo Amaro/Brooklin
+   - Horário de saída: 9:03 AM
+   - Horário de chegada: 9:07 AM
+   - Distância: 1.1 km
+   - Duração: 4 minutos
+
+3. **Caminhada até o Shopping Morumbi**:
+   - Endereço: Av. Roque Petroni Júnior, 1089 - Jardim das Acacias, São Paulo - SP, 04707-900
+   - Distância: 0.3 km
+   - Duração: 5 minutos
+
+A duração total da viagem será de aproximadamente 13 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,12.5769,consultar_rota,consultar_rota,,2026-06-30T08:58:24.838022,2026-06-30T08:58:37.417405,rota,,,,,,,2026-06-30T08:58:23.953047,2026-06-30T08:58:24.838022,,,13,1.6,0,376,Estação de Transferência Santo Amaro/Brooklin,Morumbi Shopping B/C,,,,,,,1,0.945,1.0,,,12.5794,1.0,0.981667
+R049,rota,"Como chegar de ônibus do Autódromo de Interlagos, Portão 7, até o Terminal Santo Amaro?","Para ir de ônibus do Autódromo de Interlagos, Portão 7, até o Terminal Santo Amaro, siga estas instruções:
+
+1. **Caminhada até a Av. João Paulo da Silva, 537**:
+   - Distância: 1.8 km
+   - Duração: 25 minutos
+
+2. **Ônibus**:
+   - Linha: **6071-10 - Jardim Orion / Terminal Santo Amaro**
+   - Direção: Terminal Santo Amaro
+   - Ponto de partida: Av. João Paulo da Silva, 537
+   - Horário de saída: 9:24 AM
+   - Horário de chegada: 9:51 AM
+   - Distância: 7.9 km
+   - Duração: 27 minutos
+
+3. **Caminhada até o Terminal Santo Amaro**:
+   - Endereço: Terminal Santo Amaro - Santo Amaro, São Paulo - SP, 04753-060
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+A duração total da viagem será de aproximadamente 55 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,11.8823,consultar_rota,consultar_rota,,2026-06-30T08:58:38.216858,2026-06-30T08:58:50.089585,rota,,,,,,,2026-06-30T08:58:37.422416,2026-06-30T08:58:38.216858,,,55,9.92,0,6071-10,"Av. João Paulo da Silva, 537",Terminal Santo Amaro,,,,,,,1,0.95,1.0,,,11.8727,1.0,0.983333
+R050,rota,"Quero ir de ônibus da USP, Portão 1, até o Terminal Santo Amaro.","Para ir de ônibus da USP, Portão 1, até o Terminal Santo Amaro, siga estas instruções:
+
+1. **Caminhada até a Av. Jules Rimet, 200 - Estádio do Morumbi, Portão 4**:
+   - Distância: 0.2 km
+   - Duração: 4 minutos
+
+2. **Ônibus**:
+   - Linha: **807J-10 - Terminal Campo Limpo / Shopping Morumbi**
+   - Direção: Shopping Morumbi
+   - Ponto de partida: Av. Jules Rimet, 200 - Estádio do Morumbi, Portão 4
+   - Horário de saída: 9:03 AM
+   - Horário de chegada: 9:18 AM
+   - Distância: 3.3 km
+   - Duração: 13 minutos
+
+3. **Caminhada até a Av. Magalhães de Castro, 7200**:
+   - Distância: 0.4 km
+   - Duração: 5 minutos
+
+4. **Ônibus**:
+   - Linha: **6200-10 - Terminal Santo Amaro / Terminal Bandeira via Marginal Pinheiros**
+   - Direção: Terminal Santo Amaro
+   - Ponto de partida: Av. Magalhães de Castro, 7200
+   - Horário de saída: 9:28 AM
+   - Horário de chegada: 9:42 AM
+   - Distância: 7.0 km
+   - Duração: 17 minutos
+
+5. **Caminhada até o Terminal Santo Amaro**:
+   - Endereço: Terminal Santo Amaro - Santo Amaro, São Paulo - SP, 04753-060
+   - Distância: 0.4 km
+   - Duração: 6 minutos
+
+A duração total da viagem será de aproximadamente 49 minutos. Se precisar de mais informações ou ajuda, estou à disposição!",multiagente,15.8037,consultar_rota,consultar_rota,,2026-06-30T08:58:51.181874,2026-06-30T08:59:06.985552,rota,,,,,,,2026-06-30T08:58:50.089585,2026-06-30T08:58:51.181874,,,48,11.24,1,807J-10|6200-10,"Av. Jules Rimet, 200 - Estádio do Morumbi, Portão 4|Av. Magalhães de Castro, 7200","Av. Morumbi, 6890|Terminal Santo Amaro",,,,,,,1,0.95,1.0,,,15.8037,1.0,0.983333

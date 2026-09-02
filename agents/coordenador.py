@@ -25,21 +25,21 @@ team_storage = SqliteStorage(table_name="team_sessions", db_file="data/agent.db"
 coordenador = Team(
     name="Coordenador ChatBus",
     mode="coordinate",  # o líder decide quem responde
-    model=OpenAIChat(id="gpt-4o", api_key=os.getenv("OPENAI_API_KEY")),
+    model=OpenAIChat(id="gpt-4o-mini", api_key=os.getenv("OPENAI_API_KEY")),
     members=[
         # ordem aqui importa quando o pedido parece ambíguo
         agente_rota,        # “como chegar”, origem/destino, “ir de X para Y”
         agente_chegada,     # “quando passa”, “previsão”, “chega em quanto tempo”
         agente_status,      # “onde está o ônibus”, “mapa”, “link do olho vivo”
         agente_horarios,    # “horário fixo de operação”, “tabela de horários”
-        faq_agent,          # perguntas gerais, regras, bilhete único, etc.
+        faq_agent,          # perguntas gerais, Ex: regras, bilhete único, etc.
     ],
     storage=team_storage,
     add_history_to_messages=True,
     num_history_runs=4,
     enable_agentic_context=True,     # compartilha contexto entre membros
     show_members_responses=True,     # útil para depuração
-    show_tool_calls=True,
+    show_tool_calls=False,
     markdown=False,
     monitoring=settings.monitor_enabled,  # 👈 ativa só para este agente
     instructions=[
@@ -48,8 +48,8 @@ coordenador = Team(
         "- ROTA: quando o usuário busca informações de rotas, pede 'como chegar', origem/destino.obs.: se o usuário não informar a preferencia coloque 'rapida'. Importante: se origem e destino estiverem descritos como texto adicione ',são paulo, SP, Brasil' em origem e destino nos parametros de entrada. Se estiver em formato de latitude e longitudo não adicione nada.",
         "- CHEGADA: quando o usuário pergunta 'quando passa', 'previsão de chegada' num ponto/parada.",
         "- STATUS/MAPA: quando pedir 'onde está o ônibus', 'mostrar no mapa', link do Olho Vivo.",
-        "- HORÁRIOS: quando pedir a tabela de horários fixos da linha. Se usuário não informar o dia da semana não use nenhum parametro de entrada no dia da semana e informe na resposta 'são os horários de hoje'",
-        "- FAQ: quando for uma pergunta geral (regras, bilhete único, animais, integrações, etc.).",
+        "- HORÁRIOS: quando pedir a tabela de horários fixos da linha. Se usuário não informar o dia da semana não use nenhum parametro de entrada no dia da semana e informe na resposta 'são os horários de hoje'. SEMPRE INFORME TODOS OS HORÁRIOS DA LISTA DE HORÁRIOS",
+        "- FAQ: quando for uma pergunta geral (Ex:regras, bilhete único, animais, integrações, etc.).",
         "Se faltar informação (ex.: origem/destino, sentido, nome da parada), peça educadamente apenas o mínimo necessário e reencaminhe.",
         "Responda de forma clara, objetiva e amigável, em português do Brasil.",
         "Nunca peça dados redundantes: aproveite histórico quando presente.",

@@ -2,7 +2,7 @@
 
 from dotenv import load_dotenv
 import os
-
+from core.eval_trace import set_tool, set_agent
 load_dotenv()
 from config.settings import settings
 
@@ -16,6 +16,8 @@ from urllib.parse import quote
 # Tool oficial para gerar link do Olho Vivo
 @tool(show_result=True, stop_after_tool_call=True)
 def status_onibus_tool(linha: str = None, sentido: str = None) -> str:
+    set_agent("agente_status")
+    set_tool("status_onibus_tool")
     """
     Envia o link do mapa do Olho Vivo com a posição dos ônibus da linha especificada.
     Caso o sentido não seja informado, sugere as opções disponíveis.

@@ -596,8 +596,8 @@
   {
     "category": "BILHETE ÚNICO",
     "question": "O que fazer se o Bilhete Único apresentar mau funcionamento, mensagens de “sem sinal” ou “sem saldo”?",
-    "answer": "Vá a um Posto de Atendimento da SPTrans (os Postos de Atendimento localizados nos Terminais da SPTrans funcionam, diariamente, das 06h às 22h). Se não for possível restaurá-lo, será providenciada a substituição. Se o problema ocorreu por falha de ordem técnica, o usuário fica isento do pagamento de 2ª via. Se for diagnosticado mau uso, o usuário pagará o valor correspondente ao tipo do bilhete.",
-    "text": "O que fazer se o Bilhete Único apresentar mau funcionamento, mensagens de “sem sinal” ou “sem saldo”?\n\nVá a um Posto de Atendimento da SPTrans (os Postos de Atendimento localizados nos Terminais da SPTrans funcionam, diariamente, das 06h às 22h). Se não for possível restaurá-lo, será providenciada a substituição. Se o problema ocorreu por falha de ordem técnica, o usuário fica isento do pagamento de 2ª via. Se for diagnosticado mau uso, o usuário pagará o valor correspondente ao tipo do bilhete."
+    "answer": "Nesse caso, o titular deve comparecer a um dos Postos da SPTrans (acesse o site para conferir os endereços e horários de funcionamento: https://www.sptrans.com.br/postos-de-atendimento-da-sptrans/) e relatar o ocorrido ao atendente.\nCabe lembrar que a isenção da cobrança da taxa pela 2° via do cartão é concedida apenas em casos de defeito de fabricação do cartão. Nos demais casos, a SPTrans efetua a cobrança de 7 (sete) tarifas de ônibus vigentes, como especificado no Art. 11, nos itens I e II da Portaria SMT.GAB n° 050/2019.\nCaso seja necessário, será realizada a retenção do cartão para análise pela equipe técnica da SPTrans. Este processo pode levar de 3 a 5 dias.",
+    "text": "O que fazer se o Bilhete Único apresentar mau funcionamento, mensagens de “sem sinal” ou “sem saldo”?\n\nNesse caso, o titular deve comparecer a um dos Postos da SPTrans (acesse o site para conferir os endereços e horários de funcionamento: https://www.sptrans.com.br/postos-de-atendimento-da-sptrans/) e relatar o ocorrido ao atendente.\nCabe lembrar que a isenção da cobrança da taxa pela 2° via do cartão é concedida apenas em casos de defeito de fabricação do cartão. Nos demais casos, a SPTrans efetua a cobrança de 7 (sete) tarifas de ônibus vigentes, como especificado no Art. 11, nos itens I e II da Portaria SMT.GAB n° 050/2019.\nCaso seja necessário, será realizada a retenção do cartão para análise pela equipe técnica da SPTrans. Este processo pode levar de 3 a 5 dias."
   },
   {
     "category": "BILHETE ÚNICO",
@@ -934,12 +934,6 @@
     "question": "Receberei algum aviso ou código de entrega quando o cartão for enviado?",
     "answer": "Sim. Pelo Site de Atendimento, na área logada, o(a) usuário(a) poderá acompanhar o status da sua solicitação e receber informações sobre a entrega.",
     "text": "Receberei algum aviso ou código de entrega quando o cartão for enviado?\n\nSim. Pelo Site de Atendimento, na área logada, o(a) usuário(a) poderá acompanhar o status da sua solicitação e receber informações sobre a entrega."
-  },
-  {
-    "category": "BILHETE ÚNICO COMUM EM CASA",
-    "question": "Quais outros cartões a SPTrans entrega em casa?",
-    "answer": "A SPTrans também entrega, no endereço de escolha do(a) solicitante, os seguintes cartões:\n\nBilhete Único de Estudante\nBilhete Único da Gestante\nBilhete Único Mamãe Tarifa Zero\nBilhete Único da Pessoa com Deficiência\nBilhete Único da Pessoa Idosa\nBilhete Único da Pessoa Obesa\nBilhete do Professor",
-    "text": "Quais outros cartões a SPTrans entrega em casa?\n\nA SPTrans também entrega, no endereço de escolha do(a) solicitante, os seguintes cartões:\n\nBilhete Único de Estudante\nBilhete Único da Gestante\nBilhete Único Mamãe Tarifa Zero\nBilhete Único da Pessoa com Deficiência\nBilhete Único da Pessoa Idosa\nBilhete Único da Pessoa Obesa\nBilhete do Professor"
   },
   {
     "category": "BILHETE ÚNICO MAMÃE TARIFA ZERO",
@@ -2839,6 +2833,12 @@
   },
   {
     "category": "FISCALIZAÇÃO",
+    "question": "É permitido o embarque de cão-guia nos ônibus da SPTrans?",
+    "answer": "Sim, a lei nº 18.387 de 9 de janeiro de 2026, garante à pessoa com deficiência o direito de ingressar e permanecer acompanhada de cão de assistência em todos os locais públicos ou privados de uso coletivo, meios de transporte e estabelecimentos comerciais, industriais, de serviços e de lazer.",
+    "text": "É permitido o embarque de cão-guia nos ônibus da SPTrans?\n\nSim, a lei nº 18.387 de 9 de janeiro de 2026, garante à pessoa com deficiência o direito de ingressar e permanecer acompanhada de cão de assistência em todos os locais públicos ou privados de uso coletivo, meios de transporte e estabelecimentos comerciais, industriais, de serviços e de lazer."
+  },
+  {
+    "category": "FISCALIZAÇÃO",
     "question": "Como proceder em caso de assédio no interior dos ônibus?",
     "answer": "A SPTrans apóia, participa e incentiva todas as campanhas desenvolvidas para alertar e combater o abuso sexual. As empresas operadoras receberam informações e orientações para transmitir em treinamento aos motoristas, cobradores e fiscais do sistema.  Em caso do usuário verificar e/ou ser a própria vítima do assédio, deve solicitar ajuda ao motorista. Ele deverá parar o coletivo, acionar o policiamento e oferecer apoio à vítima.",
     "text": "Como proceder em caso de assédio no interior dos ônibus?\n\nA SPTrans apóia, participa e incentiva todas as campanhas desenvolvidas para alertar e combater o abuso sexual. As empresas operadoras receberam informações e orientações para transmitir em treinamento aos motoristas, cobradores e fiscais do sistema.  Em caso do usuário verificar e/ou ser a própria vítima do assédio, deve solicitar ajuda ao motorista. Ele deverá parar o coletivo, acionar o policiamento e oferecer apoio à vítima."
@@ -3676,6 +3676,66 @@
     "question": "Qual o procedimento para divulgar um anúncio nos painéis publicitários dos abrigos?",
     "answer": "A implantação e manutenção de abrigos, inclusive a exploração comercial, é de responsabilidade da Concessionária Otima. As solicitações e informações sobre esses equipamentos estão no site: otima.com",
     "text": "Qual o procedimento para divulgar um anúncio nos painéis publicitários dos abrigos?\n\nA implantação e manutenção de abrigos, inclusive a exploração comercial, é de responsabilidade da Concessionária Otima. As solicitações e informações sobre esses equipamentos estão no site: otima.com"
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "O que é a Carta de Serviço no Portal SP156 “Solicitar atendimento como representante de bairro, comunidade e outras organizações\"?",
+    "answer": "É uma Carta de Serviço informativa para auxiliar os representantes da Sociedade Civil Organizada sobre como proceder para o envio de solicitações e demandas junto à SPTrans.",
+    "text": "O que é a Carta de Serviço no Portal SP156 “Solicitar atendimento como representante de bairro, comunidade e outras organizações\"?\n\nÉ uma Carta de Serviço informativa para auxiliar os representantes da Sociedade Civil Organizada sobre como proceder para o envio de solicitações e demandas junto à SPTrans."
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Quais os públicos-alvo?",
+    "answer": "Sociedade Civil Organizada (Associações de Moradores, Movimentos Sociais e Ongs).",
+    "text": "Quais os públicos-alvo?\n\nSociedade Civil Organizada (Associações de Moradores, Movimentos Sociais e Ongs)."
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Quando solicitar?",
+    "answer": "Sempre que houver necessidade de melhorias, sugestões ou reclamações relacionadas ao Sistema de Transporte Público de Passageiros na cidade de São Paulo. Os pedidos poderão gerar, quando necessário, a participação agendada de representantes da SPTrans em reuniões presenciais.",
+    "text": "Quando solicitar?\n\nSempre que houver necessidade de melhorias, sugestões ou reclamações relacionadas ao Sistema de Transporte Público de Passageiros na cidade de São Paulo. Os pedidos poderão gerar, quando necessário, a participação agendada de representantes da SPTrans em reuniões presenciais."
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Como solicitar?",
+    "answer": "Conforme descrito na Carta de Serviço, as solicitações junto à SPTrans têm os seguintes canais para envio:\nPresencial: entregar o ofício na Subprefeitura da região.Eletrônico: enviar para o e-mail secsad@sptrans.com.br.",
+    "text": "Como solicitar?\n\nConforme descrito na Carta de Serviço, as solicitações junto à SPTrans têm os seguintes canais para envio:\nPresencial: entregar o ofício na Subprefeitura da região.Eletrônico: enviar para o e-mail secsad@sptrans.com.br."
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Quais são as etapas?",
+    "answer": "Presencial:\n\nentregar o ofício na Subprefeitura da região;\na Subprefeitura encaminhará o documento para avaliação da SPTrans;\napós análise, a SPTrans enviará a resposta à Subprefeitura;\na Subprefeitura encaminhará o retorno ao interessado.\n\n\nEletrônico:\n\nenviar o ofício para o e-mail secsad@sptrans.com.br",
+    "text": "Quais são as etapas?\n\nPresencial:\n\nentregar o ofício na Subprefeitura da região;\na Subprefeitura encaminhará o documento para avaliação da SPTrans;\napós análise, a SPTrans enviará a resposta à Subprefeitura;\na Subprefeitura encaminhará o retorno ao interessado.\n\n\nEletrônico:\n\nenviar o ofício para o e-mail secsad@sptrans.com.br"
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Quais são os requisitos para envio de uma solicitação?",
+    "answer": "Encaminhar o ofício (carta oficial numerada), com as seguintes informações:Nome da Organização/Associação, CNPJ, e-mail, endereço, telefone e nome do representante legal.",
+    "text": "Quais são os requisitos para envio de uma solicitação?\n\nEncaminhar o ofício (carta oficial numerada), com as seguintes informações:Nome da Organização/Associação, CNPJ, e-mail, endereço, telefone e nome do representante legal."
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Qual o prazo para a resposta da solicitação?",
+    "answer": "Para demandas enviadas por e-mail, ou seja, via SEI encaminhadas pela Subprefeitura, o prazo é de 30 dias, podendo haver prorrogação, de acordo com a complexidade.",
+    "text": "Qual o prazo para a resposta da solicitação?\n\nPara demandas enviadas por e-mail, ou seja, via SEI encaminhadas pela Subprefeitura, o prazo é de 30 dias, podendo haver prorrogação, de acordo com a complexidade."
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Cidadão comum poderá utilizar-se desta carta informativa para solicitar demandas?",
+    "answer": "É uma Carta de Serviço informativa para auxiliar especificamente os representantes da Sociedade Civil Organizada. O cidadão comum deverá solicitar serviços e demandas pela Central SP156 ou Portal SP156, utilizando as Cartas de Serviços disponibilizadas para cada tema.",
+    "text": "Cidadão comum poderá utilizar-se desta carta informativa para solicitar demandas?\n\nÉ uma Carta de Serviço informativa para auxiliar especificamente os representantes da Sociedade Civil Organizada. O cidadão comum deverá solicitar serviços e demandas pela Central SP156 ou Portal SP156, utilizando as Cartas de Serviços disponibilizadas para cada tema."
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Qual a área responsável por esta carta de serviços informativa?",
+    "answer": "Assessoria de Integração Territorial da Superintendência de Planejamento e Rede de Transportes (SRT/AIT).",
+    "text": "Qual a área responsável por esta carta de serviços informativa?\n\nAssessoria de Integração Territorial da Superintendência de Planejamento e Rede de Transportes (SRT/AIT)."
+  },
+  {
+    "category": "REPRESENTANTE DE BAIRRO",
+    "question": "Dúvidas e contatos:",
+    "answer": "(11) 3396.6898 - (11) 97142-0383",
+    "text": "Dúvidas e contatos:\n\n(11) 3396.6898 - (11) 97142-0383"
   },
   {
     "category": "VENDA DE CRÉDITO",

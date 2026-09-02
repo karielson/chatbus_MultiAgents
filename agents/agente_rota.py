@@ -2,7 +2,7 @@
 
 from dotenv import load_dotenv
 import os
-
+from core.eval_trace import set_tool, set_agent
 # Carrega variáveis do .env
 load_dotenv()
 from config.settings import settings
@@ -10,12 +10,12 @@ from config.settings import settings
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
 from agno.tools import tool
-
+from typing import Optional
 from services.maps import maps
 
 # Tool oficial para consulta de rotas
-@tool(show_result=True, stop_after_tool_call=True)
-def consultar_rota(origem: str, destino: str, preferencia: str = None) -> str:
+@tool(show_result=False, stop_after_tool_call=True)
+def consultar_rota(origem: str, destino: str, preferencia: Optional[str] = None) -> str:
     """
     Informa o melhor trajeto entre uma origem e um destino.
     Importante: se origem e destino estiverem descritos como texto adicione ",são paulo, SP, Brasil". Se estiver em formato de latitude e longitudo não adicione nada.
@@ -25,6 +25,9 @@ def consultar_rota(origem: str, destino: str, preferencia: str = None) -> str:
       - 'menos_caminhada' => rota com menos caminhada, etc.
       obs.: se o usuário não informar a preferencia coloque 'rapida'
     """
+    set_agent("agente_rota")
+    set_tool("consultar_rota")
+    preferencia = preferencia or "rapida"
     if not destino:
         return "Por favor, informe o endereço de destino ou compartilhe sua localização."
 
@@ -58,6 +61,7 @@ agente_rota = Agent(
         "Se disser 'com menos baldeações' use 'menos_baldeacoes'.",
         "Se disser 'menos caminhada' use 'menos_caminhada'.",
         "obs.: se o usuário não informar a preferencia coloque 'rapida'",
+        "obs.: envie pro usuário exatamente como na descrição do Google Maps.",
         "Importante: se origem e destino estiverem descritos como texto adicione 'são paulo, SP, Brasil' Se estiver em formato de latitude e longitudo não adicione nada.",
     ],
     markdown=True,

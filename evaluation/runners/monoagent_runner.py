@@ -1,23 +1,23 @@
+# evaluation/runners/monoagent_runner.py
+
 from __future__ import annotations
 
 import time
 import traceback
 from datetime import datetime
 
-from agents.coordenador import coordenador
-from core.eval_trace import reset_trace, get_tool, get_agent
 from evaluation.runners.base_runner import BaseRunner, ModelRunResult
 
 
-class MultiAgentRunner(BaseRunner):
+class MonoAgentRunner(BaseRunner):
     """
-    Executor experimental da arquitetura multiagente.
+    Executor experimental da arquitetura monoagente.
 
-    Este runner chama diretamente o coordenador Agno,
-    registra tempo de execução, resposta, agente/ferramenta usados e eventuais erros.
+    Quando o monoagente estiver implementado, substitua o trecho TODO
+    pela chamada real do agente único.
     """
 
-    arquitetura = "multiagente"
+    arquitetura = "monoagente"
 
     def run(self, row: dict) -> ModelRunResult:
         id_consulta = str(row.get("id_consulta", "")).strip()
@@ -25,29 +25,17 @@ class MultiAgentRunner(BaseRunner):
         pergunta = str(row.get("pergunta", "")).strip()
         ferramenta_esperada = str(row.get("ferramenta_esperada", "")).strip() or None
 
-        reset_trace()
-
         inicio = datetime.now()
         t0 = time.perf_counter()
 
-        chunks = []
         erro = None
+        resposta = ""
 
         try:
-            user_id = f"eval_multi_{id_consulta}"
-
-            for rr in coordenador.run(
-                pergunta,
-                stream=True,
-                user_id=user_id
-            ):
-                if getattr(rr, "content", None):
-                    chunks.append(str(rr.content))
-
-            resposta = "".join(chunks).strip()
-
-            if not resposta:
-                resposta = "Não obtive resposta do modelo."
+            # TODO: substituir pela chamada real do monoagente.
+            # Exemplo futuro:
+            # resposta = monoagente.run(pergunta)
+            resposta = "Monoagente ainda não implementado."
 
         except Exception as e:
             resposta = ""
@@ -57,9 +45,6 @@ class MultiAgentRunner(BaseRunner):
         t1 = time.perf_counter()
         fim = datetime.now()
 
-        ferramenta_usada = get_tool()
-        agente_usado = get_agent()
-
         return ModelRunResult(
             id_consulta=id_consulta,
             tipo_tarefa=tipo_tarefa,
@@ -68,7 +53,7 @@ class MultiAgentRunner(BaseRunner):
             arquitetura=self.arquitetura,
             tempo_resposta_seg=round(t1 - t0, 4),
             ferramenta_esperada=ferramenta_esperada,
-            ferramenta_usada=ferramenta_usada or agente_usado,
+            ferramenta_usada=None,
             erro=erro,
             timestamp_inicio=inicio.isoformat(),
             timestamp_fim=fim.isoformat(),

@@ -1,0 +1,579 @@
+﻿id_consulta,tipo_tarefa,pergunta,resposta,arquitetura,tempo_resposta_seg,ferramenta_esperada,ferramenta_usada,erro,timestamp_inicio,timestamp_fim,referencia_tipo,referencia_url_esperada,referencia_codigo_linha,referencia_letreiro,referencia_sentido_descricao,referencia_erro,referencia_observacao,referencia_timestamp_inicio,referencia_timestamp_fim,referencia_linha_resolvida,referencia_horarios_esperados,referencia_rota_tempo_total_min,referencia_rota_distancia_total_km,referencia_rota_qtd_baldeacoes,referencia_rota_linhas_utilizadas,referencia_rota_pontos_embarque,referencia_rota_pontos_desembarque,referencia_faq_pergunta,referencia_faq_resposta,referencia_faq_texto,referencia_faq_categoria,referencia_faq_similaridade_pergunta,referencia_faq_score,pef,acuracia,completude,delta_temporal_status_seg,delta_temporal_horarios_seg,delta_temporal_rotas_seg,delta_temporal_faq_seg,atualidade,qoi
+F002,faq,Preciso usar Bilhete Único para andar gratuitamente aos domingos?,"Parece que não conseguimos encontrar informações específicas sobre a necessidade de usar o Bilhete Único para andar gratuitamente aos domingos. 
+
+No entanto, geralmente, a utilização do Bilhete Único é necessária para obter a gratuidade no transporte público, mesmo aos domingos. Recomendo que você verifique diretamente no site da SPTrans ou entre em contato com o atendimento ao público para obter esclarecimentos mais detalhados.
+
+Se precisar de mais alguma informação ou ajuda, estou à disposição!",multiagente,13.0976,faq,faq,,2026-06-30T09:48:32.136561,2026-06-30T09:48:45.234414,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:48:32.136561,2026-06-30T09:48:32.136561,,,,,,,,,Preciso usar o Bilhete Único?,Sim. Os passageiros devem usar o Bilhete Único. Ao encostar o Bilhete Único no validador a catraca é liberada mas a tarifa não é cobrada.,"Preciso usar o Bilhete Único?
+
+Sim. Os passageiros devem usar o Bilhete Único. Ao encostar o Bilhete Único no validador a catraca é liberada mas a tarifa não é cobrada.",GRATUIDADE AOS DOMINGOS,1.0,1.0,1,0.2308,0.3333,,,,13.0979,1.0,0.521367
+F006,faq,"No Aquático SP, os barcos são seguros para quem não sabe nadar?","Sim, os barcos do Aquático SP são seguros para pessoas que não sabem nadar. Eles são vistoriados e aprovados pela Marinha do Brasil e, em caso de emergência, contam com coletes e botes salva-vidas disponíveis. Portanto, você pode ficar tranquilo ao utilizá-los. 
+
+Se tiver mais perguntas ou precisar de mais informações, estou à disposição!",multiagente,12.1649,faq,faq,,2026-06-30T09:48:45.236419,2026-06-30T09:48:57.399786,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:48:45.236419,2026-06-30T09:48:45.236419,,,,,,,,,"Eu não sei nadar, os barcos são seguros?","Sim, os barcos são vistoriados e aprovadas pela Marinha do Brasil e, em caso de emergência, contam com coletes e botes salva-vidas.","Eu não sei nadar, os barcos são seguros?
+
+Sim, os barcos são vistoriados e aprovadas pela Marinha do Brasil e, em caso de emergência, contam com coletes e botes salva-vidas.",AQUÁTICO SP,1.0,1.0,1,0.8462,1.0,,,,12.1634,1.0,0.948733
+F007,faq,Os barcos do Aquático SP têm espaço para levar bicicleta?,"Sim, os barcos do Aquático SP têm espaço exclusivo para o transporte de bicicletas. 
+
+Se precisar de mais informações ou tiver outras perguntas, fique à vontade para perguntar!",multiagente,2.4885,faq,faq,,2026-06-30T09:48:57.399786,2026-06-30T09:48:59.889606,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:48:57.399786,2026-06-30T09:48:57.399786,,,,,,,,,Os barcos têm espaço para transporte de bicicleta?,O Aquático-SP conta com barcos com espaço exclusivo para o transporte de bicicletas.,"Os barcos têm espaço para transporte de bicicleta?
+
+O Aquático-SP conta com barcos com espaço exclusivo para o transporte de bicicletas.",AQUÁTICO SP,1.0,1.0,1.0,1.0,1.0,,,,2.4898,1.0,1.000000
+F010,faq,Posso levar animal de estimação no Aquático SP?,"Sim, você pode levar seu animal de estimação no Aquático SP, desde que seja de pequeno porte e transportado em caixas apropriadas. Essa política está de acordo com a Lei 16.125/2015, que regulamenta o transporte de animais domésticos no serviço municipal de transporte coletivo de passageiros em São Paulo.
+
+Se precisar de mais informações ou tiver outras perguntas, estou à disposição!",multiagente,12.4038,faq,faq,,2026-06-30T09:48:59.889606,2026-06-30T09:49:12.294712,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:48:59.889606,2026-06-30T09:48:59.889606,,,,,,,,,Posso levar meu animal de estimação?,"Sim. Animais de estimação, de pequeno porte, em caixas apropriadas, podem ser transportados no colo - Lei 16.125/2015","Posso levar meu animal de estimação?
+
+Sim. Animais de estimação, de pequeno porte, em caixas apropriadas, podem ser transportados no colo - Lei 16.125/2015",AQUÁTICO SP,1.0,1.0,1,0.8182,0.6667,,,,12.4051,1.0,0.828300
+F011,faq,O que é o Serviço de Atendimento Especial Atende+ da SPTrans?,"O **Serviço de Atendimento Especial Atende+** é uma modalidade de transporte oferecida pela SPTrans, que visa promover a inclusão social de forma gratuita e porta a porta. É destinado a pessoas com autismo, surdocegueira ou deficiência física severa.
+
+### Características do Atende+:
+- **Veículos Adaptados:** Todos os veículos são equipados com plataformas de elevação para facilitar o embarque e desembarque dos passageiros.
+- **Horário de Funcionamento:** O serviço opera das 7h às 20h, de segunda-feira a domingo.
+- **Regulamentação:** O serviço é regido pela Lei 16.337 de 30/12/2015.
+
+Essa iniciativa busca atender às necessidades de mobilidade da população com deficiência, proporcionando um meio seguro e adequado de transporte.
+
+Se tiver mais perguntas ou precisar de mais informações, estou à disposição!",multiagente,16.8545,faq,faq,,2026-06-30T09:49:12.294712,2026-06-30T09:49:29.151851,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:49:12.294712,2026-06-30T09:49:12.294712,,,,,,,,,O que é o Serviço de Atendimento Especial Atende+?,"É uma modalidade de transporte que promove a inclusão social de forma gratuita, porta a porta, destinada às pessoas com autismo, surdocegueira ou deficiência física severa. Os veículos são adaptados e equipados com plataforma de elevação para embarque e desembarque. Horário do serviço: das 7h às 20h, de segunda-feira a domingo. O Serviço é regido pela Lei 16.337 de 30/12/2015.","O que é o Serviço de Atendimento Especial Atende+?
+
+É uma modalidade de transporte que promove a inclusão social de forma gratuita, porta a porta, destinada às pessoas com autismo, surdocegueira ou deficiência física severa. Os veículos são adaptados e equipados com plataforma de elevação para embarque e desembarque. Horário do serviço: das 7h às 20h, de segunda-feira a domingo. O Serviço é regido pela Lei 16.337 de 30/12/2015.",ATENDE+,1.0,1.0,1,0.9394,1.0,,,,16.8571,1.0,0.979800
+F012,faq,A quem se destina o Serviço Atende+ da SPTrans?,"O Serviço Atende+ da SPTrans é destinado exclusivamente a pessoas com autismo, surdocegueira ou deficiência física e mobilidade altamente reduzida. Esse serviço é voltado para aqueles que não possuem condições de mobilidade e acessibilidade autônoma aos meios de transporte convencionais ou que apresentam grandes restrições ao acesso e uso de equipamentos urbanos.
+
+Se precisar de mais informações ou tiver outras perguntas, estou aqui para ajudar!",multiagente,3.984,faq,faq,,2026-06-30T09:49:29.152851,2026-06-30T09:49:33.137392,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:49:29.152851,2026-06-30T09:49:29.152851,,,,,,,,,A quem se destina o Serviço Atende+?,"Destina-se, exclusivamente, às pessoas com autismo, surdocegueira ou deficiência física e mobilidade altamente reduzida, as quais não apresentem condições de mobilidade e acessibilidade autônoma aos meios de transportes convencionais ou que manifestem grandes restrições ao acesso e uso de equipamentos urbanos.","A quem se destina o Serviço Atende+?
+
+Destina-se, exclusivamente, às pessoas com autismo, surdocegueira ou deficiência física e mobilidade altamente reduzida, as quais não apresentem condições de mobilidade e acessibilidade autônoma aos meios de transportes convencionais ou que manifestem grandes restrições ao acesso e uso de equipamentos urbanos.",ATENDE+,1.0,1.0,1.0,0.7083,1.0,,,,3.9845,1.0,0.902767
+F014,faq,Autistas e surdocegos precisam de acompanhante no Serviço Atende+?,"Sim, autistas e surdocegos precisam obrigatoriamente de acompanhantes para utilizar o Serviço Atende+ da SPTrans em suas viagens. Essa medida é importante para garantir a segurança e o suporte necessário durante o transporte.
+
+Se tiver mais perguntas ou precisar de mais informações, estou à disposição!",multiagente,11.7505,faq,faq,,2026-06-30T09:49:33.139941,2026-06-30T09:49:44.890098,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:49:33.138406,2026-06-30T09:49:33.138406,,,,,,,,,Autistas e surdocegos precisam de acompanhantes?,Essas pessoas precisam obrigatoriamente de acompanhantes em suas viagens.,"Autistas e surdocegos precisam de acompanhantes?
+
+Essas pessoas precisam obrigatoriamente de acompanhantes em suas viagens.",ATENDE+,1.0,1.0,1,0.6667,1.0,,,,11.7517,1.0,0.888900
+F016,faq,O que é o Bilhete do Professor da SPTrans?,"O **Bilhete do Professor** é um cartão que permite aos professores que atendem aos requisitos necessários obter um desconto de até 50% nas passagens do Sistema Estadual de Transporte Público Metropolitano (metrô/trem). No entanto, é importante ressaltar que esse bilhete não garante o direito a cotas para uso nos ônibus do Sistema de Transporte Coletivo Público de Passageiros na cidade de São Paulo, nem à gratuidade.
+
+### Características do Bilhete do Professor:
+- **Desconto:** Até 50% nas passagens de metrô e trem.
+- **Não válido para ônibus:** Não oferece benefícios para o transporte coletivo de ônibus na cidade.
+- **Solicitação:** Os professores devem preencher um processo de solicitação por meio da unidade de ensino, que encaminha os dados à SPTrans.
+
+Dessa forma, o Bilhete do Professor é uma maneira de facilitar o acesso ao transporte público para os educadores, reconhecendo sua importância na sociedade.
+
+Se precisar de mais informações ou tiver outras perguntas, estou à disposição!",multiagente,14.6889,faq,faq,,2026-06-30T09:49:44.891103,2026-06-30T09:49:59.579728,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:49:44.891103,2026-06-30T09:49:44.891103,,,,,,,,,O que é o Bilhete do Professor?,"É um cartão para o acesso ao professor que que possui os requisitos necessários ao benefício do desconto de até 50% nas passagens do Sistema Estadual de Transporte Público Metropolitano Metroferroviário (metrô/trem). Ressaltamos que o professor não tem direito as cotas para uso nos ônibus do Sistema de Transporte Coletivo Público de Passageiros na Cidade de São Paulo, nem a gratuidade.","O que é o Bilhete do Professor?
+
+É um cartão para o acesso ao professor que que possui os requisitos necessários ao benefício do desconto de até 50% nas passagens do Sistema Estadual de Transporte Público Metropolitano Metroferroviário (metrô/trem). Ressaltamos que o professor não tem direito as cotas para uso nos ônibus do Sistema de Transporte Coletivo Público de Passageiros na Cidade de São Paulo, nem a gratuidade.",BILHETE DO PROFESSOR,1.0,1.0,1,0.96,1.0,,,,14.6886,1.0,0.986667
+F017,faq,Como solicitar o Bilhete do Professor da SPTrans?,"Para solicitar o **Bilhete do Professor** da SPTrans, você deve seguir os seguintes passos:
+
+1. **Informe a Unidade de Ensino:** Notifique a unidade de ensino onde deseja utilizar o Bilhete do Professor no ano vigente.
+  
+2. **Aguarde o envio dos dados:** A unidade de ensino enviará suas informações à SPTrans. Você pode acompanhar essa etapa através do site [sptrans.com.br/professor](http://sptrans.com.br/professor).
+
+3. **Inicie o processo de solicitação:** Acesse o site e digite seu RG e CPF para conferir se você já pode emitir o Bilhete Único de Professor.
+
+4. **Pagamento:** Realize o pagamento correspondente a 5 tarifas de ônibus vigentes, utilizando PIX, cartão de crédito ou boleto.
+
+5. **Recebimento do cartão:** Após a conclusão dessas etapas, o cartão será enviado para a sua unidade de ensino em até 20 dias úteis a partir da confirmação do pagamento do pedido.
+
+Se precisar de mais ajuda ou informações adicionais, estou aqui para ajudar!",multiagente,5.6343,faq,faq,,2026-06-30T09:49:59.581740,2026-06-30T09:50:05.216367,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:49:59.581740,2026-06-30T09:49:59.581740,,,,,,,,,Como faço para solicitar o Bilhete do Professor?,"Informe a Unidade de Ensino que deseja utilizar o Bilhete do Professor no ano vigente;
+
+
+Aguarde o envio dos seus dados à SPTrans pela Unidade de Ensino. Você pode acompanhar essa etapa  através do site sptrans.com.br/professor;
+
+
+Basta iniciar o processo de solicitação e digitar RG e CPF para conferir se você já pode emitir o Bilhete Único de Professor;
+
+
+Pague o valor correspondente a 5 tarifas de ônibus vigentes, por PIX, cartão de crédito ou boleto;
+
+
+Após a conclusão dessas etapas o cartão será encaminhado para a sua unidade de ensino, em até 20 (vinte) dias úteis a partir da confirmação de pagamento do pedido.","Como faço para solicitar o Bilhete do Professor?
+
+Informe a Unidade de Ensino que deseja utilizar o Bilhete do Professor no ano vigente;
+
+
+Aguarde o envio dos seus dados à SPTrans pela Unidade de Ensino. Você pode acompanhar essa etapa  através do site sptrans.com.br/professor;
+
+
+Basta iniciar o processo de solicitação e digitar RG e CPF para conferir se você já pode emitir o Bilhete Único de Professor;
+
+
+Pague o valor correspondente a 5 tarifas de ônibus vigentes, por PIX, cartão de crédito ou boleto;
+
+
+Após a conclusão dessas etapas o cartão será encaminhado para a sua unidade de ensino, em até 20 (vinte) dias úteis a partir da confirmação de pagamento do pedido.",BILHETE DO PROFESSOR,1.0,1.0,1.0,0.9245,1.0,,,,5.6346,1.0,0.974833
+F019,faq,"Depois de comprar cotas do Bilhete do Professor, posso mudar de opção ou transferir o saldo?","Não, não é possível mudar de opção ou transferir saldo após a compra de cotas do Bilhete do Professor da SPTrans. O Bilhete do Professor é exclusivo para cotas do Sistema Estadual de Transporte Público Metropolitano (metrô/trem) e não pode ser utilizado em ônibus do Sistema de Transporte Coletivo Público de Passageiros da cidade de São Paulo.
+
+Se tiver mais perguntas ou precisar de mais informações, estou à disposição!",multiagente,20.592,faq,faq,,2026-06-30T09:50:05.218276,2026-06-30T09:50:25.809631,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:50:05.218276,2026-06-30T09:50:05.218276,,,,,,,,,Depois de comprada a cota posso mudar de opção e transferir o saldo?,O Bilhete do Professor é exclusivo para cotas do Sistema Estadual de Transporte Público Metropolitano Metroferroviário (metrô/trem). Ele não é aceito nos ônibus do Sistema de Transporte Coletivo Público de Passageiros na Cidade de São Paulo.,"Depois de comprada a cota posso mudar de opção e transferir o saldo?
+
+O Bilhete do Professor é exclusivo para cotas do Sistema Estadual de Transporte Público Metropolitano Metroferroviário (metrô/trem). Ele não é aceito nos ônibus do Sistema de Transporte Coletivo Público de Passageiros na Cidade de São Paulo.",BILHETE DO PROFESSOR,1.0,1.0,1,0.8824,1.0,,,,20.5914,1.0,0.960800
+F020,faq,O Bilhete Único é personalizado e de uso pessoal?,"Sim, o **Bilhete Único** é um cartão **personalizado** e de **uso pessoal**. Parte das informações cadastradas, como nome, CPF e número do cartão, é impressa diretamente no bilhete. Além disso, ele é **intransferível**, o que significa que não pode ser emprestado a outra pessoa. O cartão deve ser utilizado apenas pelo seu titular.
+
+Se precisar de mais informações ou tiver outras perguntas, estou à disposição!",multiagente,12.1007,faq,faq,,2026-06-30T09:50:25.809631,2026-06-30T09:50:37.909609,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:50:25.809631,2026-06-30T09:50:25.809631,,,,,,,,,O Bilhete Único será personalizado?,"Parte das informações apresentadas no cadastrado será impressa no Bilhete Único como o nome, CPF e nº do cartão. O cartão será de uso pessoal e intransferível.","O Bilhete Único será personalizado?
+
+Parte das informações apresentadas no cadastrado será impressa no Bilhete Único como o nome, CPF e nº do cartão. O cartão será de uso pessoal e intransferível.",BILHETE ÚNICO,1.0,1.0,1,0.6429,1.0,,,,12.1,1.0,0.880967
+F021,faq,Quem pode adquirir e usar o Bilhete Único comum da SPTrans?,"Qualquer pessoa acima de 6 anos que tenha RG e CPF próprios pode adquirir e usar o **Bilhete Único comum** da SPTrans. É importante lembrar que o cartão é de uso pessoal e intransferível.
+
+Se precisar de mais informações ou tiver outras perguntas, estou à disposição!",multiagente,3.8211,faq,faq,,2026-06-30T09:50:37.914346,2026-06-30T09:50:41.730999,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:50:37.914346,2026-06-30T09:50:37.914346,,,,,,,,,Quem pode adquirir e usar o Bilhete Único?,Qualquer pessoa acima de 6 anos que tenha RG e CPF próprios. O cartão é de uso pessoal e intransferível.,"Quem pode adquirir e usar o Bilhete Único?
+
+Qualquer pessoa acima de 6 anos que tenha RG e CPF próprios. O cartão é de uso pessoal e intransferível.",BILHETE ÚNICO,1.0,1.0,1.0,0.9722,1.0,,,,3.8167,1.0,0.990733
+F022,faq,Como faço para adquirir um Bilhete Único da SPTrans?,"Para adquirir um **Bilhete Único** da SPTrans, você deve seguir os seguintes passos:
+
+1. **Dirija-se a um Posto de Atendimento ou Ponto de Venda:** Você pode encontrar os locais onde é possível solicitar o Bilhete Único. Uma lista completa dos postos está disponível no site da SPTrans.
+
+2. **Leve os Documentos Necessários:**
+   - **RG** (Registro Geral) ou **CNH** (Carteira Nacional de Habilitação).
+   - **CPF** (Cadastro de Pessoas Físicas) do próprio titular (se não constar no documento de identidade apresentado).
+   
+3. **Preenchimento de Formulário:** No local de atendimento, você deverá preencher um formulário de solicitação.
+
+4. **Aguarde a Emissão:** Após a solicitação, o Bilhete Único será impresso na hora, e você poderá usá-lo imediatamente.
+
+5. **Carregar o Bilhete:** Após receber o seu Bilhete Único, lembre-se de carregá-lo com créditos para poder utilizá-lo no transporte público.
+
+Se tiver mais dúvidas ou precisar de mais informações, estou aqui para ajudar!",multiagente,5.179,faq,faq,,2026-06-30T09:50:41.730999,2026-06-30T09:50:46.912845,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:50:41.730999,2026-06-30T09:50:41.730999,,,,,,,,,Como faço para adquirir um Bilhete Único?,"Faça o cadastro do Bilhete Único pelo site da SPTrans. Após preencher o cadastro, sem deixar pendências, retire o cartão em um Posto de Atendimento da SPTrans (os Postos de Atendimento localizados nos Terminais da SPTrans funcionam, diariamente, das 06h às 22h). Apresente um documento de identidade em condições que permitam a identificação do solicitante, de preferência com menos de 10 anos de emissão, para retirar o cartão.","Como faço para adquirir um Bilhete Único?
+
+Faça o cadastro do Bilhete Único pelo site da SPTrans. Após preencher o cadastro, sem deixar pendências, retire o cartão em um Posto de Atendimento da SPTrans (os Postos de Atendimento localizados nos Terminais da SPTrans funcionam, diariamente, das 06h às 22h). Apresente um documento de identidade em condições que permitam a identificação do solicitante, de preferência com menos de 10 anos de emissão, para retirar o cartão.",BILHETE ÚNICO,1.0,1.0,1.0,0.75,0.666,,,,5.1818,1.0,0.805333
+F023,faq,É permitido ter mais de um Bilhete Único?,"A informação específica sobre ter mais de um Bilhete Único da SPTrans não foi encontrada na base de dados. Entretanto, o Bilhete Único é um cartão de uso pessoal e intransferível, e a prática geralmente é que cada pessoa tenha apenas um Bilhete Único.
+
+Para esclarecimentos mais detalhados ou regras específicas, é recomendável entrar em contato diretamente com a SPTrans ou consultar o site oficial para informações atualizadas.
+
+Se você tiver mais perguntas ou precisar de assistência com outro tema, fico à disposição!",multiagente,12.2396,faq,faq,,2026-06-30T09:50:46.912845,2026-06-30T09:50:59.156944,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:50:46.912845,2026-06-30T09:50:46.912845,,,,,,,,,Posso adquirir mais de um Bilhete Único?,É permitido apenas um cartão por usuário.,"Posso adquirir mais de um Bilhete Único?
+
+É permitido apenas um cartão por usuário.",BILHETE ÚNICO,1.0,1.0,1,0.5,1.0,,,,12.2441,1.0,0.833333
+F024,faq,Quanto custa a segunda via do Bilhete Único comum?,"O custo para a **emissão da segunda via do Bilhete Único** é de **7 tarifas de ônibus vigentes**. Este valor deve ser pago em dinheiro no momento da solicitação da segunda via, que pode ser feita em um Posto de Atendimento da SPTrans.
+
+Se precisar de mais informações ou tiver outras perguntas, estou à disposição!",multiagente,14.5867,faq,faq,,2026-06-30T09:50:59.157969,2026-06-30T09:51:13.744239,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:50:59.157969,2026-06-30T09:50:59.157969,,,,,,,,,Quanto custa a 2ª via do Bilhete Único?,O custo para a emissão da 2ª via do Bilhete Único é de 7 tarifas de ônibus vigentes e deve ser paga em dinheiro.,"Quanto custa a 2ª via do Bilhete Único?
+
+O custo para a emissão da 2ª via do Bilhete Único é de 7 tarifas de ônibus vigentes e deve ser paga em dinheiro.",BILHETE ÚNICO,1.0,1.0,1,0.95,1.0,,,,14.5863,1.0,0.983333
+F025,faq,Qual é a ordem de desconto dos créditos na catraca do Bilhete Único?,"A ordem de desconto dos créditos na catraca do **Bilhete Único** é a seguinte:
+
+1. **Crédito do tipo Vale-Transporte**
+2. **Crédito do tipo Estudante** (que pode ser meia tarifa ou gratuidade)
+3. **Crédito do tipo Comum** (primeiro os créditos de tempo e depois os créditos em dinheiro)
+
+Se todas as carteiras estiverem vazias ou com valor inferior a 1 tarifa vigente, o usuário precisará pagar o valor integral da tarifa em dinheiro.
+
+Se você tiver mais perguntas ou precisar de mais informações, estou à disposição!",multiagente,13.5952,faq,faq,,2026-06-30T09:51:13.745175,2026-06-30T09:51:27.339937,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:51:13.745175,2026-06-30T09:51:13.745175,,,,,,,,,Qual a ordem de desconto na catraca?,"No momento do pagamento da tarifa o validador efetua os descontos na seguinte ordem:
+1º - crédito do tipo Vale-Transporte;
+2º - crédito do tipo Estudante (1/2 tarifa ou gratuidade); e
+3º - crédito do tipo Comum (créditos de tempo e depois créditos em dinheiro).
+Se todas as carteiras estiverem vazias, ou com valor inferior a 1 tarifa vigente, o usuário pagará o valor integral da tarifa em dinheiro.","Qual a ordem de desconto na catraca?
+
+No momento do pagamento da tarifa o validador efetua os descontos na seguinte ordem:
+1º - crédito do tipo Vale-Transporte;
+2º - crédito do tipo Estudante (1/2 tarifa ou gratuidade); e
+3º - crédito do tipo Comum (créditos de tempo e depois créditos em dinheiro).
+Se todas as carteiras estiverem vazias, ou com valor inferior a 1 tarifa vigente, o usuário pagará o valor integral da tarifa em dinheiro.",BILHETE ÚNICO,1.0,1.0,1,0.9224,1.0,,,,13.5948,1.0,0.974133
+F026,faq,Quais são as regras de uso dos créditos do tipo Comum no Bilhete Único?,"As regras de utilização para os **créditos do tipo Comum** no Bilhete Único são as seguintes:
+
+1. **4 embarques em 3 horas** nos ônibus do Serviço de Transporte Coletivo Público de Passageiros na Cidade de São Paulo, com o pagamento de **1 tarifa vigente**.
+  
+2. **4 embarques em 3 horas**, sendo um embarque no Sistema Estadual de Transporte Metropolitano Metroferroviário dentro das duas primeiras horas, e os demais embarques em ônibus diferentes do Serviço de Transporte Coletivo Público de Passageiros, com o pagamento de **1 tarifa integrada vigente**.
+
+3. **Aos domingos**, viajar nos ônibus municipais da cidade de São Paulo é **gratuito** para todos os passageiros das 0h às 23h59. Essa gratuidade permite realizar quantas viagens forem necessárias nesse período. Não há desconto na integração com os trilhos aos domingos, uma vez que os ônibus são gratuitos. A gratuidade também vale no **Natal (25/12)**, **Ano Novo (1/1)** e **Aniversário de São Paulo (25/1)**.
+
+Se você tiver mais perguntas ou precisar de mais informações, estou à disposição!",multiagente,19.771,faq,faq,,2026-06-30T09:51:27.341956,2026-06-30T09:51:47.112957,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:51:27.341956,2026-06-30T09:51:27.341956,,,,,,,,,Quais são as regras de utilização para créditos do tipo Comum?,"• 4 embarques em 3 horas, nos ônibus do Serviço de Transporte Coletivo Público de Passageiros na Cidade de São Paulo, com o pagamento de 1 tarifa vigente;
+• 4 embarques em 3 horas , sendo um embarque no Sistema Estadual de Transporte Metropolitano Metroferroviário, nas duas primeiras horas e os demais embarques em ônibus diferentes, do Serviço de Transporte Coletivo Público de Passageiros na Cidade de São Paulo, com o pagamento de 1 tarifa integrada vigente;
+•  Aos domingos, viajar nos ônibus municipais da cidade de São Paulo é gratuito para todos os passageiros da 0h às 23h59. A gratuidade aos domingos permite que o passageiro realize quantas viagens precisar, da 0h às 23h59. Não há desconto na integração com os trilhos aos domingos, já que os ônibus são gratuitos. Essa gratuidade também vale no Natal (25/12), Ano Novo (1/1) e Aniversário de São Paulo (25/1).","Quais são as regras de utilização para créditos do tipo Comum?
+
+• 4 embarques em 3 horas, nos ônibus do Serviço de Transporte Coletivo Público de Passageiros na Cidade de São Paulo, com o pagamento de 1 tarifa vigente;
+• 4 embarques em 3 horas , sendo um embarque no Sistema Estadual de Transporte Metropolitano Metroferroviário, nas duas primeiras horas e os demais embarques em ônibus diferentes, do Serviço de Transporte Coletivo Público de Passageiros na Cidade de São Paulo, com o pagamento de 1 tarifa integrada vigente;
+•  Aos domingos, viajar nos ônibus municipais da cidade de São Paulo é gratuito para todos os passageiros da 0h às 23h59. A gratuidade aos domingos permite que o passageiro realize quantas viagens precisar, da 0h às 23h59. Não há desconto na integração com os trilhos aos domingos, já que os ônibus são gratuitos. Essa gratuidade também vale no Natal (25/12), Ano Novo (1/1) e Aniversário de São Paulo (25/1).",BILHETE ÚNICO,1.0,1.0,1,0.9755,1.0,,,,19.771,1.0,0.991833
+F027,faq,O que significa a mensagem de bloqueio temporário no Bilhete Único?,"A mensagem de **""bloqueio temporário""** do Bilhete Único indica que a reutilização do mesmo tipo de crédito (como Estudante, Professor ou Vale-Transporte) no mesmo ônibus ou em estações de metrô/trem deve obedecer a um intervalo mínimo de **30 minutos**.
+
+Se você tentar fazer um novo uso do mesmo crédito antes desse período, o validador buscará outros tipos de créditos disponíveis no mesmo cartão para cobrar a passagem. Caso não haja créditos diferentes disponíveis, a mensagem de bloqueio temporário será exibida até que o intervalo mínimo seja respeitado.
+
+Se tiver mais perguntas ou precisar de mais informações, estou à disposição!",multiagente,13.6513,faq,faq,,2026-06-30T09:51:47.114967,2026-06-30T09:52:00.765977,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:51:47.114967,2026-06-30T09:51:47.114967,,,,,,,,,"O que significa a mensagem de ""bloqueio temporário"" do Bilhete Único?","A reutilização do mesmo tipo de crédito (Estudante, Professor ou Vale-Transporte) no mesmo ônibus ou Estações de metrô/trem deve obedecer ao intervalo mínimo de 30 minutos. Ao tentar fazer novo uso em um intervalo inferior ao estabelecido pela SPTrans, o validador buscará outros tipos de créditos, no mesmo cartão, para cobrar a passagem. Caso não existam créditos diferentes disponíveis será exibida a mensagem ""bloqueio temporário"" até que o intervalo mínimo seja respeitado.","O que significa a mensagem de ""bloqueio temporário"" do Bilhete Único?
+
+A reutilização do mesmo tipo de crédito (Estudante, Professor ou Vale-Transporte) no mesmo ônibus ou Estações de metrô/trem deve obedecer ao intervalo mínimo de 30 minutos. Ao tentar fazer novo uso em um intervalo inferior ao estabelecido pela SPTrans, o validador buscará outros tipos de créditos, no mesmo cartão, para cobrar a passagem. Caso não existam créditos diferentes disponíveis será exibida a mensagem ""bloqueio temporário"" até que o intervalo mínimo seja respeitado.",BILHETE ÚNICO,1.0,1.0,1,0.9524,1.0,,,,13.651,1.0,0.984133
+F028,faq,Como funciona a solicitação do Bilhete Único Comum com entrega em casa?,"Para solicitar o **Bilhete Único Comum** com entrega em casa, siga os passos abaixo:
+
+1. Acesse o **Site de Atendimento da SPTrans** em [sptrans.com.br/atendimento](http://sptrans.com.br/atendimento).
+2. Clique no serviço **“Comum/VT”**.
+3. Selecione a opção **“Comum - Receba seu cartão em casa”**.
+4. Siga as etapas indicadas no site para concluir o pedido.
+
+### Informações Adicionais:
+- Menores de idade também podem solicitar a entrega do Bilhete Único em casa.
+- Se a entrega não for realizada após 3 tentativas, o cartão será encaminhado ao **Posto Central** (Rua Boa Vista, 274 – Centro – Mezanino), e o usuário será informado através do Site de Atendimento. Não haverá reembolso se as tentativas de entrega forem realizadas.
+- Caso você já tenha realizado um pedido anteriormente, é possível solicitar um novo bilhete pelo site. O bilhete atual será cancelado automaticamente durante esse processo.
+
+Esses passos devem ajudar no entendimento e na solicitação do Bilhete Único Comum com entrega em casa. Se você tiver mais perguntas, estou aqui para ajudar!",multiagente,20.4565,faq,faq,,2026-06-30T09:52:00.766987,2026-06-30T09:52:21.223676,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:52:00.766987,2026-06-30T09:52:00.766987,,,,,,,,,Como funciona o serviço de solicitação do Bilhete Único Comum com entrega em casa?,"O(a) usuário(a) deve acessar o Site de Atendimento da SPTrans (sptrans.com.br/atendimento), clicar no serviço “Comum/VT” e, em seguida, selecionar a opção “Comum - Receba seu cartão em casa”. Após isso, basta seguir as etapas indicadas para concluir o pedido.","Como funciona o serviço de solicitação do Bilhete Único Comum com entrega em casa?
+
+O(a) usuário(a) deve acessar o Site de Atendimento da SPTrans (sptrans.com.br/atendimento), clicar no serviço “Comum/VT” e, em seguida, selecionar a opção “Comum - Receba seu cartão em casa”. Após isso, basta seguir as etapas indicadas para concluir o pedido.",BILHETE ÚNICO COMUM EM CASA,1.0,1.0,1,0.68,1.0,,,,20.4567,1.0,0.893333
+F029,faq,"Após o pagamento do boleto de Vale-Transporte, em quanto tempo a recarga fica disponível?","Após o pagamento do boleto, a recarga do **Vale-Transporte** fica disponível em um prazo de **até 2 dias úteis** para a liquidação financeira e disponibilização para recarga. Portanto, é importante aguardar esse período para que a recarga possa ser utilizada.
+
+Se tiver mais perguntas ou precisar de mais informações, estou aqui para ajudar!",multiagente,18.6854,faq,faq,,2026-06-30T09:52:21.226599,2026-06-30T09:52:39.911797,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:52:21.226599,2026-06-30T09:52:21.226599,,,,,,,,,Minha empresa já fez o pedido do Vale-Transporte. Por que a recarga ainda não está disponível?,"Após o pagamento do boleto, é preciso aguardar 2 dias úteis para a liquidação financeira e disponibilização para recarga.","Minha empresa já fez o pedido do Vale-Transporte. Por que a recarga ainda não está disponível?
+
+Após o pagamento do boleto, é preciso aguardar 2 dias úteis para a liquidação financeira e disponibilização para recarga.",BILHETE ÚNICO VALE-TRANSPORTE,1.0,1.0,1,0.9773,1.0,,,,18.6852,1.0,0.992433
+F030,faq,"Se não conseguirem entregar o Bilhete Único Comum em Casa, onde retiro o cartão e há reembolso?","Caso a empresa responsável não consiga realizar a entrega do Bilhete Único Comum após 3 tentativas, o cartão será encaminhado ao **Posto Central**, localizado na Rua Boa Vista, 274 – Centro – Mezanino. Todas essas informações estarão disponíveis para o(a) usuário(a) pelo Site de Atendimento.
+
+Em relação ao reembolso, não haverá reembolso, uma vez que as tentativas de entrega tiverem sido devidamente realizadas.
+
+Se precisar de mais informações ou tiver outras dúvidas, estou à disposição!",multiagente,8.0416,faq,faq,,2026-06-30T09:52:39.912799,2026-06-30T09:52:47.954569,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:52:39.912799,2026-06-30T09:52:39.912799,,,,,,,,,"Se não conseguirem fazer a entrega, onde eu pego o cartão? Recebo reembolso se não me entregarem?","Caso a empresa responsável não consiga realizar a entrega do cartão após 3 (três) tentativas, o Bilhete Único será encaminhado ao Posto Central (Rua Boa Vista, 274 – Centro – Mezanino).
+Todas essas informações estarão disponíveis para o(a) usuário(a) por meio do Site de Atendimento.
+Não haverá reembolso, uma vez que as tentativas de entrega tiverem sido devidamente realizadas.","Se não conseguirem fazer a entrega, onde eu pego o cartão? Recebo reembolso se não me entregarem?
+
+Caso a empresa responsável não consiga realizar a entrega do cartão após 3 (três) tentativas, o Bilhete Único será encaminhado ao Posto Central (Rua Boa Vista, 274 – Centro – Mezanino).
+Todas essas informações estarão disponíveis para o(a) usuário(a) por meio do Site de Atendimento.
+Não haverá reembolso, uma vez que as tentativas de entrega tiverem sido devidamente realizadas.",BILHETE ÚNICO COMUM EM CASA,1.0,1.0,1.0,0.9786,1.0,,,,8.0418,1.0,0.992867
+F032,faq,O que é o Bilhete Único Mamãe Tarifa Zero?,"### Informações sobre o Bilhete Único Mamãe Tarifa Zero
+
+O **Bilhete Único Mamãe Tarifa Zero** é um benefício destinado a mães que utilizam o transporte coletivo no município de São Paulo. Aqui estão as principais informações:
+
+#### Como Solicitar:
+1. **Consulta**: A pessoa responsável pela criança deve acessar o site do Mamãe Tarifa Zero para verificar se tem direito ao benefício.
+2. **Pedido**: Caso tenha direito, será direcionada para realizar o pedido, confirmando os dados e informações da criança.
+3. **Emissão**: Após a confirmação, o Bilhete Único Mamãe Tarifa Zero será emitido e enviado para a casa da responsável.
+4. **Recarga Mensal**: Todo mês, créditos de gratuidade serão disponibilizados para recarga no cartão, de acordo com a frequência na creche.
+
+#### Uso do Bilhete:
+- **Válido somente para ônibus**: Os créditos de gratuidade do Bilhete são válidos apenas para uso nos ônibus da SPTrans. Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo ""Comum"".
+- **Integrações**: Com o Bilhete Único Mamãe Tarifa Zero, é possível realizar até **4 embarques** em ônibus dentro de um período de até **2 horas**.
+
+#### Custo:
+- A **primeira via** do bilhete é gratuita. Para a emissão da **segunda via**, em caso de perda, roubo ou dano, será cobrada uma taxa equivalente a **7 tarifas vigentes**.
+
+Essas informações devem ajudá-lo a entender como funciona o Bilhete Único Mamãe Tarifa Zero e como solicitá-lo. Se precisar de mais detalhes, fique à vontade para perguntar!",multiagente,19.2817,faq,faq,,2026-06-30T09:52:47.955490,2026-06-30T09:53:07.237093,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:52:47.955490,2026-06-30T09:52:47.955490,,,,,,,,,O que é?,"É um programa que concede transporte gratuito nos ônibus da SPTrans para mães, pais e responsáveis (padrasto, madrasta, avó(ô), tia(o) e outros) por crianças, de zero a 4 anos, matriculadas nas creches públicas de São Paulo, utilizando o Bilhete Único Mamãe Tarifa Zero, para as viagens de ida e volta.","O que é?
+
+É um programa que concede transporte gratuito nos ônibus da SPTrans para mães, pais e responsáveis (padrasto, madrasta, avó(ô), tia(o) e outros) por crianças, de zero a 4 anos, matriculadas nas creches públicas de São Paulo, utilizando o Bilhete Único Mamãe Tarifa Zero, para as viagens de ida e volta.",BILHETE ÚNICO MAMÃE TARIFA ZERO,1.0,1.0,1,0.8241,0.6667,,,,19.2816,1.0,0.830267
+F033,faq,Quem tem direito ao Bilhete Único Mãe Paulistana?,"### Informações sobre o Bilhete Único Mãe Paulistana
+
+O **Bilhete Único Mãe Paulistana** é um benefício voltado para gestantes que atendem aos seguintes critérios:
+
+#### Direito ao Bilhete:
+- **Quem pode solicitar**: Apenas gestantes que estão cadastradas nas Unidades Básicas de Saúde (UBS) e que são beneficiárias do Programa de Proteção da Saúde da Gestante e do Recém-Nascido.
+- **Nota Importante**: Este bilhete não garante isenção tarifária; as passagens são custeadas pela **Secretaria Municipal da Saúde**.
+
+#### Como Adquirir:
+- As interessadas devem se dirigir a uma **Unidade Básica de Saúde - UBS**, munidas de documentos, para fazer o pedido. É necessário que as interessadas consultem os endereços das UBS para a solicitação.
+
+Essas informações resumem quem tem direito ao Bilhete Único Mãe Paulistana e como pode ser adquirido. Se você tiver mais dúvidas, fique à vontade para perguntar!",multiagente,20.4021,faq,faq,,2026-06-30T09:53:07.239626,2026-06-30T09:53:27.642477,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:53:07.239626,2026-06-30T09:53:07.239626,,,,,,,,,Quem tem direito ao Bilhete Único Mãe Paulistana?,"Somente as gestantes cadastradas nas Unidades Básicas de Saúde - UBS e beneficiadas pelo Programa de Proteção da Saúde da Gestante e do Recém-Nascido.  
+ 
+Nota: Esse tipo de cartão não proporciona isenção tarifária. As passagens são custeadas pela Secretaria Municipal da Saúde.","Quem tem direito ao Bilhete Único Mãe Paulistana?
+
+Somente as gestantes cadastradas nas Unidades Básicas de Saúde - UBS e beneficiadas pelo Programa de Proteção da Saúde da Gestante e do Recém-Nascido.  
+ 
+Nota: Esse tipo de cartão não proporciona isenção tarifária. As passagens são custeadas pela Secretaria Municipal da Saúde.",BILHETE ÚNICO MÃE PAULISTANA,1.0,1.0,1,0.625,1.0,,,,20.4029,1.0,0.875000
+F034,faq,O Bilhete Único Mamãe Tarifa Zero pode ser usado no metrô ou trem?,"Os créditos de gratuidade do **Bilhete Único Mamãe Tarifa Zero** são válidos apenas para uso nos **ônibus da SPTrans**. Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo **""Comum""** (dinheiro ou cotas de tempo).
+
+Se precisar de mais informações ou tiver outras dúvidas, estou à disposição!",multiagente,4.1862,faq,faq,,2026-06-30T09:53:27.643436,2026-06-30T09:53:31.829900,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:53:27.643436,2026-06-30T09:53:27.643436,,,,,,,,,O Bilhete Único Mamãe Tarifa Zero poderá ser usado no metrô ou trem?,"Os créditos de gratuidade do Bilhete Único Mamãe Tarifa Zero são válidos apenas para uso nos ônibus da SPTrans. 
+Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo ""Comum"" (dinheiro ou cotas de tempo).","O Bilhete Único Mamãe Tarifa Zero poderá ser usado no metrô ou trem?
+
+Os créditos de gratuidade do Bilhete Único Mamãe Tarifa Zero são válidos apenas para uso nos ônibus da SPTrans. 
+Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo ""Comum"" (dinheiro ou cotas de tempo).",BILHETE ÚNICO MAMÃE TARIFA ZERO,1.0,1.0,1.0,0.9545,1.0,,,,4.1865,1.0,0.984833
+F035,faq,Com o Bilhete Único Mamãe Tarifa Zero é possível fazer integrações entre ônibus?,"Sim, com o **Bilhete Único Mamãe Tarifa Zero**, é possível realizar até **4 embarques** em ônibus dentro de um período de até **2 horas**. Isso permite que você faça integrações entre diferentes ônibus durante esse intervalo.
+
+Se tiver mais perguntas ou precisar de mais informações, fique à vontade para perguntar!",multiagente,4.1307,faq,faq,,2026-06-30T09:53:31.830908,2026-06-30T09:53:35.962490,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:53:31.830908,2026-06-30T09:53:31.830908,,,,,,,,,Com o Bilhete Único Mamãe Tarifa Zero é possível realizar integrações?,"Sim, com o bilhete em mãos e disponível para uso, será possível realizar até 4 (quatro) embarques em ônibus dentro de um período de até 2 horas.","Com o Bilhete Único Mamãe Tarifa Zero é possível realizar integrações?
+
+Sim, com o bilhete em mãos e disponível para uso, será possível realizar até 4 (quatro) embarques em ônibus dentro de um período de até 2 horas.",BILHETE ÚNICO MAMÃE TARIFA ZERO,1.0,1.0,1.0,0.8929,1.0,,,,4.1316,1.0,0.964300
+F036,faq,O que é o Bilhete Único da Gestante da SPTrans?,"### Informações sobre o Bilhete Único da Gestante da SPTrans
+
+O **Bilhete Único da Gestante** é um cartão destinado a mulheres grávidas, com as seguintes características:
+
+#### O que é:
+- É um cartão destinado a mulheres que estão grávidas a partir do **5º mês de gestação**.
+- Permite o **desembarque pela porta da frente** dos ônibus da cidade de São Paulo, após o pagamento da tarifa com créditos do tipo **comum**.
+
+#### Como Solicitar:
+- A solicitação do Bilhete Único da Gestante pode ser feita de duas maneiras:
+  - **Online**: Através do site de Atendimento Digital da SPTrans.
+  - **Presencialmente**: Em um dos Postos de Atendimento, localizados nas Subprefeituras.
+
+#### Reaver Créditos:
+- Caso o cartão tenha sido bloqueado, a beneficiária deve:
+  1. Receber a **2ª via** do cartão.
+  2. Comparecer a um Posto de Atendimento da SPTrans e apresentar o cartão para que sejam carregados os valores que estavam no cartão bloqueado.
+
+Se você tiver mais perguntas ou precisar de mais informações, fique à vontade para perguntar!",multiagente,20.4551,faq,faq,,2026-06-30T09:53:35.962490,2026-06-30T09:53:56.417792,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:53:35.962490,2026-06-30T09:53:35.962490,,,,,,,,,O que é o Bilhete Único da Gestante?,"É um cartão para mulheres grávidas, a partir do 5º (quinto) mês de gestação, que permite o desembarque pela porta da frente dos ônibus da cidade de São Paulo, após o pagamento da tarifa com créditos do tipo comum.","O que é o Bilhete Único da Gestante?
+
+É um cartão para mulheres grávidas, a partir do 5º (quinto) mês de gestação, que permite o desembarque pela porta da frente dos ônibus da cidade de São Paulo, após o pagamento da tarifa com créditos do tipo comum.",BILHETE ÚNICO DA GESTANTE,1.0,1.0,1,0.85,1.0,,,,20.4553,1.0,0.950000
+F037,faq,Quem tem direito ao Bilhete Único da Gestante?,"O **Bilhete Único da Gestante** é destinado às mulheres que estão grávidas e atendem ao seguinte critério:
+
+- **Direito ao Bilhete**: Apenas mulheres grávidas a partir do **5º mês de gestação** têm direito a este bilhete.
+
+Se precisar de mais informações ou tiver outras dúvidas, estou à disposição!",multiagente,4.5057,faq,faq,,2026-06-30T09:53:56.417792,2026-06-30T09:54:00.924618,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:53:56.417792,2026-06-30T09:53:56.417792,,,,,,,,,Quem tem direito ao Bilhete Único da Gestante?,Mulheres grávidas a partir do 5º (quinto) mês de gestação.,"Quem tem direito ao Bilhete Único da Gestante?
+
+Mulheres grávidas a partir do 5º (quinto) mês de gestação.",BILHETE ÚNICO DA GESTANTE,1.0,1.0,1.0,1.0,1.0,,,,4.5068,1.0,1.000000
+F038,faq,Qual é o prazo de validade do Bilhete Único da Gestante?,"### Prazo de Validade do Bilhete Único da Gestante
+
+O **Bilhete Único da Gestante** é válido do **5º ao 9º mês de gestação**. Durante esse período, as mulheres grávidas têm acesso ao cartão, que facilita o desembarque pela porta da frente nos ônibus da cidade de São Paulo.
+
+Se você tiver mais perguntas ou precisar de mais informações, sinta-se à vontade para perguntar!",multiagente,12.1287,faq,faq,,2026-06-30T09:54:00.925634,2026-06-30T09:54:13.054416,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:54:00.925634,2026-06-30T09:54:00.925634,,,,,,,,,Qual o prazo de validade do Bilhete Único da Gestante?,O prazo é do 5ª ao 9ª mês de gestação.,"Qual o prazo de validade do Bilhete Único da Gestante?
+
+O prazo é do 5ª ao 9ª mês de gestação.",BILHETE ÚNICO DA GESTANTE,1.0,1.0,1,1.0,1.0,,,,12.1288,1.0,1.000000
+F039,faq,Quando posso solicitar ou revalidar o Bilhete Único de Estudante para 2026?,"### Informações sobre a Solicitação e Revalidação do Bilhete Único de Estudante para o Ano de 2026
+
+#### Prazo para Solicitação e Revalidação:
+- A solicitação ou revalidação do Bilhete Único de Estudante para o ano letivo de **2026** estará disponível a partir de **6 de janeiro de 2026** pelo site [sptrans.dne.com.br](http://sptrans.dne.com.br).
+
+#### Passos para Solicitação:
+1. Informe a Unidade de Ensino que deseja utilizar o Bilhete Único de Estudante no ano vigente.
+2. Aguarde o envio dos dados da sua matrícula à SPTrans pela Unidade de Ensino.
+3. Acompanhe a confirmação de sua matrícula no site da SPTrans.
+4. Acesse o site para fazer o cadastro ou pagar a taxa de revalidação.
+
+#### Revalidação do Cartão:
+- Se você já possui um Bilhete Único de Estudante ativo, a opção de **revalidar o cartão** estará disponível. Certifique-se de que o cartão esteja em perfeito estado, sem trincas ou envergaduras, e que a foto e numeração na parte frontal estejam legíveis.
+- Se o cartão estiver danificado, você deve solicitar uma primeira via com o cancelamento do cartão anterior. O uso do benefício será permitido apenas após receber o novo bilhete.
+- Se houver saldo no cartão substituído, os créditos serão transferidos para o novo Bilhete Único de Estudante em até **72 horas** após o desbloqueio do novo cartão.
+
+#### Pagamento:
+- O valor da taxa para revalidação é equivalente a **sete tarifas vigentes**. O pagamento pode ser feito por PIX, cartão de crédito ou boleto, pelo site na opção **""Estudante""**, em **""Solicitação do Benefício""**.
+
+#### Entrega do Cartão:
+- Após a conclusão de todas as etapas, o cartão será enviado para o seu endereço informado no cadastro em até **15 dias**, exceto para quem optar por continuar usando um cartão emitido em anos anteriores.
+
+Se você tiver mais dúvidas ou precisar de mais informações, estou à disposição para ajudar!",multiagente,22.4193,faq,faq,,2026-06-30T09:54:13.055410,2026-06-30T09:54:35.475480,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:54:13.055410,2026-06-30T09:54:13.055410,,,,,,,,,Quando posso solicitar ou revalidar meu Bilhete Único de Estudante para o ano letivo de 2026?,A solicitação ou revalidação do benefício está disponível desde 6 de janeiro de 2026 pelo site sptrans.dne.com.br.,"Quando posso solicitar ou revalidar meu Bilhete Único de Estudante para o ano letivo de 2026?
+
+A solicitação ou revalidação do benefício está disponível desde 6 de janeiro de 2026 pelo site sptrans.dne.com.br.",BILHETE ÚNICO DE ESTUDANTE,1.0,1.0,1,0.95,1.0,,,,22.4201,1.0,0.983333
+F040,faq,Quais são as modalidades do Bilhete Único de Estudante?,"### Informações sobre as Modalidades do Bilhete Único de Estudante
+
+O **Bilhete Único de Estudante** possui duas modalidades principais:
+
+1. **Bilhete Único de Estudante Meia-Tarifa**:
+   - Nesta modalidade, os créditos eletrônicos são adquiridos diretamente pelo usuário, com uma **redução de 50%** sobre as tarifas básicas vigentes para o usuário comum.
+
+2. **Bilhete Único de Estudante com Gratuidade**:
+   - Este tipo de bilhete disponibiliza **cotas de viagens gratuitas**, com uma redução de até **100%** sobre as tarifas básicas vigentes para o usuário comum.
+
+Essas modalidades oferecem opções acessíveis para os estudantes utilizarem o transporte público. Se precisar de mais informações ou tiver outras perguntas, estou à disposição para ajudar!",multiagente,15.073,faq,faq,,2026-06-30T09:54:35.476483,2026-06-30T09:54:50.549614,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:54:35.476483,2026-06-30T09:54:35.476483,,,,,,,,,Quais são as modalidades do Bilhete Único de Estudante?,"• Bilhete Único de Estudante Meia-Tarifa, cujos créditos eletrônicos são adquiridos diretamente pelo usuário com redução de 50% (cinquenta por cento) sobre as tarifas básicas vigentes para o usuário comum.
+• Bilhete Único de Estudante com Gratuidade, cujas cotas de viagens gratuitas são disponibilizadas com redução de até 100% (cem por cento) sobre as tarifas básicas vigentes para o usuário comum.","Quais são as modalidades do Bilhete Único de Estudante?
+
+• Bilhete Único de Estudante Meia-Tarifa, cujos créditos eletrônicos são adquiridos diretamente pelo usuário com redução de 50% (cinquenta por cento) sobre as tarifas básicas vigentes para o usuário comum.
+• Bilhete Único de Estudante com Gratuidade, cujas cotas de viagens gratuitas são disponibilizadas com redução de até 100% (cem por cento) sobre as tarifas básicas vigentes para o usuário comum.",BILHETE ÚNICO DE ESTUDANTE,1.0,1.0,1,0.93,1.0,,,,15.0731,1.0,0.976667
+F041,faq,Quem pode adquirir o Bilhete Único de Estudante?,"### Informações sobre Quem Pode Adquirir o Bilhete Único de Estudante
+
+O **Bilhete Único de Estudante** pode ser adquirido por:
+
+- **Alunos do Ensino Fundamental**
+- **Alunos do Ensino Médio**
+- **Alunos do Ensino Técnico e Profissionalizante**
+- **Alunos do Ensino Superior e Tecnológico**
+
+Esses alunos devem estar matriculados em instituições de ensino que pertençam à rede pública municipal, estadual, federal ou à rede privada de ensino, desde que seus cursos sejam devidamente autorizados, reconhecidos e fiscalizados pelas autoridades competentes.
+
+#### Requisitos:
+- A instituição de ensino frequentada pelo estudante deve estar localizada a uma distância não inferior a **1 (um) quilômetro** da residência do aluno e deve existir uma ligação de transporte coletivo público entre esses pontos.
+- Os alunos devem residir no **Município de São Paulo** e estar matriculados em cursos sediados na **Região Metropolitana de São Paulo**, ou residir na Região Metropolitana e estar matriculados em cursos no Município de São Paulo ou em municípios constantes de portaria da SMT.
+
+Se precisar de mais informações ou tiver outras perguntas, estou aqui para ajudar!",multiagente,16.0239,faq,faq,,2026-06-30T09:54:50.551623,2026-06-30T09:55:06.575518,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:54:50.551623,2026-06-30T09:54:50.551623,,,,,,,,,Quem pode adquirir o Bilhete Único de Estudante?,"Alunos do Ensino Fundamental, Ensino Médio, Ensino Técnico e Profissionalizante, Ensino Superior e Tecnológico, na rede pública municipal, estadual e federal ou na rede privada de ensino, cujos cursos sejam devidamente autorizados, oficialmente reconhecidos e fiscalizados pelas autoridades competentes. A instituição de ensino frequentada pelo estudante deverá localizar-se a uma distância não inferior a 1 (um) quilômetro da residência do aluno, e desde que exista ligação de transporte coletivo público entre estes pontos. É necessário ainda que, comprovadamente, os alunos residam no Município de São Paulo e estejam matriculados em cursos sediados na Região Metropolitana de São Paulo ou nos municípios constantes de portaria da SMT; ou residam na Região Metropolitana de São Paulo ou nos municípios constantes de portaria da SMT e estejam matriculados em cursos sediados no Município de São Paulo.","Quem pode adquirir o Bilhete Único de Estudante?
+
+Alunos do Ensino Fundamental, Ensino Médio, Ensino Técnico e Profissionalizante, Ensino Superior e Tecnológico, na rede pública municipal, estadual e federal ou na rede privada de ensino, cujos cursos sejam devidamente autorizados, oficialmente reconhecidos e fiscalizados pelas autoridades competentes. A instituição de ensino frequentada pelo estudante deverá localizar-se a uma distância não inferior a 1 (um) quilômetro da residência do aluno, e desde que exista ligação de transporte coletivo público entre estes pontos. É necessário ainda que, comprovadamente, os alunos residam no Município de São Paulo e estejam matriculados em cursos sediados na Região Metropolitana de São Paulo ou nos municípios constantes de portaria da SMT; ou residam na Região Metropolitana de São Paulo ou nos municípios constantes de portaria da SMT e estejam matriculados em cursos sediados no Município de São Paulo.",BILHETE ÚNICO DE ESTUDANTE,1.0,1.0,1,0.9234,1.0,,,,16.0239,1.0,0.974467
+F042,faq,Quanto custa a segunda via do Bilhete Único de Estudante?,"### Custo da Segunda Via do Bilhete Único de Estudante
+
+A segunda via do **Bilhete Único de Estudante** possui um custo equivalente a **7 tarifas de ônibus vigentes**.
+
+#### Formas de Pagamento:
+O pagamento pode ser realizado das seguintes maneiras:
+- **Pix**
+- **Cartão de crédito**
+- **Boleto**
+
+Essas opções de pagamento estão disponíveis no site da SPTrans durante o processo de solicitação da segunda via.
+
+Se precisar de mais informações ou tiver dúvidas adicionais, estou aqui para ajudar!",multiagente,15.4266,faq,faq,,2026-06-30T09:55:06.577521,2026-06-30T09:55:22.003529,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:55:06.577521,2026-06-30T09:55:06.577521,,,,,,,,,Quanto custa a 2ª via do Bilhete Único de Estudante?,"7 tarifas de ônibus vigentes. O pagamento pode ser feito por Pix, cartão ou boleto, conforme opções disponíveis no site.","Quanto custa a 2ª via do Bilhete Único de Estudante?
+
+7 tarifas de ônibus vigentes. O pagamento pode ser feito por Pix, cartão ou boleto, conforme opções disponíveis no site.",BILHETE ÚNICO DE ESTUDANTE,1.0,1.0,1,0.8846,1.0,,,,15.426,1.0,0.961533
+F046,faq,Qual é o limite de tempo para reapresentar o Bilhete Único Especial da Pessoa com Deficiência no mesmo ônibus?,"### Limite de Tempo para Reapresentar o Bilhete Único Especial da Pessoa com Deficiência
+
+Sim, há um limite de tempo para a reapresentação do **Bilhete Único Especial da Pessoa com Deficiência** no mesmo coletivo:
+
+- **60 minutos**: Este é o limite para reapresentar o cartão no mesmo ônibus.
+- **30 minutos**: Nos bloqueios do metrô/trem, o limite é de 30 minutos.
+
+Se precisar de mais informações ou tiver mais dúvidas, estou à disposição para ajudar!",multiagente,22.305,faq,faq,,2026-06-30T09:55:22.004528,2026-06-30T09:55:44.309099,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:55:22.004528,2026-06-30T09:55:22.004528,,,,,,,,,Há limite de tempo para reapresentação do Bilhete Único Especial da Pessoa com Deficiência no mesmo coletivo?,"Sim, o limite para reapresentação do cartão no mesmo coletivo é de 60 minutos. Nos bloqueios do metrô/trem, o limite é de 30 minutos.","Há limite de tempo para reapresentação do Bilhete Único Especial da Pessoa com Deficiência no mesmo coletivo?
+
+Sim, o limite para reapresentação do cartão no mesmo coletivo é de 60 minutos. Nos bloqueios do metrô/trem, o limite é de 30 minutos.",BILHETE ÚNICO ESPECIAL DA PESSOA COM DEFICIÊNCIA,1.0,1.0,1,0.9722,1.0,,,,22.3046,1.0,0.990733
+F048,faq,Pessoas de 60 a 64 anos com gratuidade precisam recarregar o Bilhete Único?,"### Recarga do Bilhete Único para Pessoas de 60 a 64 Anos com Gratuidade
+
+Pessoas com idades entre **60 a 64 anos** que têm direito à gratuidade precisam, sim, recarregar o **Bilhete Único Personalizado (Comum)** para usufruir desse benefício.
+
+#### Detalhes:
+- **Cota Mensal de Gratuidade**: Todo mês, uma cota de gratuidade é disponibilizada, que deve ser carregada.
+- **Como Recarregar**: Para carregar o benefício, o usuário deve encostar o bilhete duas vezes em uma máquina de recarga.
+
+Este procedimento é necessário para que a gratuidade seja efetivamente utilizada no transporte público.
+
+Se você tiver mais perguntas ou precisar de mais informações, estou aqui para ajudar!",multiagente,20.663,faq,faq,,2026-06-30T09:55:44.311245,2026-06-30T09:56:04.970762,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:55:44.311245,2026-06-30T09:55:44.311245,,,,,,,,,"Tenho direito à gratuidade, então por que preciso recarregar o cartão?","A pessoa com 60 a 64 anos utilizará o Bilhete Único Personalizado (Comum) que receberá uma cota mensal de gratuidade. Todo mês será disponibilizado o benefício, que deve ser carregado encostando o bilhete duas vezes em uma máquina de recarga.","Tenho direito à gratuidade, então por que preciso recarregar o cartão?
+
+A pessoa com 60 a 64 anos utilizará o Bilhete Único Personalizado (Comum) que receberá uma cota mensal de gratuidade. Todo mês será disponibilizado o benefício, que deve ser carregado encostando o bilhete duas vezes em uma máquina de recarga.",GRATUIDADE - PESSOAS COM 60 A 64 ANOS,1.0,1.0,1,0.9091,1.0,,,,20.6595,1.0,0.969700
+F049,faq,Quem tem direito ao Bilhete Único Especial da Pessoa Obesa?,"### Direito ao Bilhete Único Especial da Pessoa Obesa
+
+O **Bilhete Único Especial da Pessoa Obesa** é destinado a:
+
+- **Usuários com Índice de Massa Corporal (IMC) superior a 39,9**.
+- **Residência**: O usuário deve residir no **Município de São Paulo** ou na **Região Metropolitana**.
+
+#### Uso do Bilhete:
+- O bilhete permite que o usuário desembarque pela porta dianteira do ônibus, após o pagamento da tarifa/giro da catraca e a apresentação do Bilhete Único Especial ao motorista.
+- **Importante**: Este tipo de cartão **não proporciona isenção tarifária**.
+
+Se você tiver mais perguntas ou precisar de mais informações, estou aqui para ajudar!",multiagente,15.3515,faq,faq,,2026-06-30T09:56:04.970762,2026-06-30T09:56:20.327225,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:56:04.970762,2026-06-30T09:56:04.970762,,,,,,,,,Quem tem direito ao Bilhete Único Especial da Pessoa Obesa?,"Usuários com Índice de Massa Corporal (IMC) superior a 39,9, residentes no Município de São Paulo ou na Região Metropolitana, podem adquirir o cartão para desembarcarem pela porta dianteira do ônibus, após o pagamento da tarifa/giro da catraca e apresentação do Bilhete Único Especial ao motorista.
+Nota: Esse tipo de cartão não proporciona isenção tarifária.","Quem tem direito ao Bilhete Único Especial da Pessoa Obesa?
+
+Usuários com Índice de Massa Corporal (IMC) superior a 39,9, residentes no Município de São Paulo ou na Região Metropolitana, podem adquirir o cartão para desembarcarem pela porta dianteira do ônibus, após o pagamento da tarifa/giro da catraca e apresentação do Bilhete Único Especial ao motorista.
+Nota: Esse tipo de cartão não proporciona isenção tarifária.",BILHETE ÚNICO ESPECIAL DA PESSOA OBESA,1.0,1.0,1,0.9394,1.0,,,,15.3565,1.0,0.979800
+F050,faq,Quais são as regras de uso do Bilhete Único Vale-Transporte?,"### Regras de Uso do Bilhete Único Vale-Transporte
+
+As regras de utilização do **Bilhete Único Vale-Transporte** são as seguintes:
+
+1. **Dois Embarques em Ônibus**:
+   - Permite dois embarques em ônibus diferentes dentro do período de **três horas**, com o pagamento de uma tarifa Vale-Transporte Ônibus.
+
+2. **Embarque em Ônibus e Sistema Trilhos**:
+   - Permite um embarque em ônibus, durante até **3 horas**, e um embarque no sistema de trilhos (metrô/trem) nas **duas primeiras horas**, com o pagamento de uma tarifa de Integração Ônibus + metrô/trem Vale-Transporte.
+
+3. **Embarque no Sistema Trilhos**:
+   - Permite um embarque no sistema de trilhos (metrô/trem), pagando uma tarifa Vale-Transporte metrô/trem.
+
+### Informações Adicionais
+- Para utilizar o Vale-Transporte, você deve informar o número do seu Bilhete Único personalizado à área de Recursos Humanos da sua empresa.
+- Para solicitar o Bilhete Único para uso como Vale-Transporte, o serviço está disponível diretamente pelo site da SPTrans.
+- O limite de recarga para créditos do tipo Vale-Transporte é de até **R$ 650,00 por dia** e o saldo acumulado não pode ultrapassar **R$ 1.184,00**.
+
+Se precisar de mais informações ou tiver outras perguntas, sinta-se à vontade para perguntar!",multiagente,36.1482,faq,faq,,2026-06-30T09:56:20.329256,2026-06-30T09:56:56.477386,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:56:20.329256,2026-06-30T09:56:20.329256,,,,,,,,,Quais são as regras de utilização do Bilhete Único Vale-Transporte?,"São permitidos:1. Dois embarques em ônibus diferentes, no período de três horas, com o pagamento de uma tarifa Vale-Transporte Ônibus.2. Um embarque em ônibus, em até 3 horas e um embarque no sistema trilhos (metrô/trem), nas duas primeiras horas, com o pagamento de uma tarifa Integração Ônibus + metrô/trem Vale-Transporte.3. Um embarque no sistema trilhos (metrô/trem), pagando uma tarifa Vale-Transporte metrô/trem.","Quais são as regras de utilização do Bilhete Único Vale-Transporte?
+
+São permitidos:1. Dois embarques em ônibus diferentes, no período de três horas, com o pagamento de uma tarifa Vale-Transporte Ônibus.2. Um embarque em ônibus, em até 3 horas e um embarque no sistema trilhos (metrô/trem), nas duas primeiras horas, com o pagamento de uma tarifa Integração Ônibus + metrô/trem Vale-Transporte.3. Um embarque no sistema trilhos (metrô/trem), pagando uma tarifa Vale-Transporte metrô/trem.",BILHETE ÚNICO VALE-TRANSPORTE,1.0,1.0,1,0.9479,1.0,,,,36.1481,1.0,0.982633
+F001,faq,Como funciona a gratuidade dos ônibus municipais aos domingos?,"### Gratuidade dos Ônibus Municipais aos Domingos
+
+Nos **domingos**, viajar nos ônibus municipais da cidade de São Paulo é **gratuito para todos os passageiros**. As principais informações sobre essa gratuidade são:
+
+- **Horário**: A gratuidade vale das **0h às 23h59**.
+- **Viagens**: Não há limite de viagens, ou seja, o passageiro pode realizar quantas viagens precisar dentro desse período.
+- **Integração**: Não há desconto na integração com os sistemas de trilhos (metrô/trem) aos domingos, pois os ônibus já são gratuitos.
+
+#### Datas Especiais
+Essa gratuidade também se aplica em datas especiais, como:
+- **Natal** (25/12)
+- **Ano Novo** (1/1)
+- **Aniversário de São Paulo** (25/1)
+
+Se você tiver mais perguntas ou precisar de mais esclarecimentos, fique à vontade para perguntar!",multiagente,23.9786,faq,faq,,2026-06-30T09:56:56.477386,2026-06-30T09:57:20.448663,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:56:56.477386,2026-06-30T09:56:56.477386,,,,,,,,,Como funciona a gratuidade aos domingos?,"Viajar nos ônibus municipais da cidade de São Paulo é gratuito em todos os domingos, para todos os passageiros da 0h às 23h59.","Como funciona a gratuidade aos domingos?
+
+Viajar nos ônibus municipais da cidade de São Paulo é gratuito em todos os domingos, para todos os passageiros da 0h às 23h59.",GRATUIDADE AOS DOMINGOS,1.0,1.0,1,0.9,1.0,,,,23.9713,1.0,0.966667
+F003,faq,"No Serviço Atende+ da SPTrans, como o usuário deve cancelar uma viagem agendada?","### Como Cancelar uma Viagem Agendada no Serviço Atende+
+
+Para cancelar uma viagem agendada no **Serviço Atende+**, o usuário pode seguir um dos métodos abaixo:
+
+1. **Acesso pelo Site**:
+   - Acesse o site oficial: [atende.sptrans.com.br](http://atende.sptrans.com.br) e registre o cancelamento da sua viagem.
+
+2. **Central de Atendimento**:
+   - Ligue para a **Central de Atendimento** pelo número **156** e faça o registro do cancelamento.
+
+Esses são os passos que você deve seguir para cancelar sua viagem agendada. Se precisar de mais alguma informação, fique à vontade para perguntar!",multiagente,14.0019,faq,faq,,2026-06-30T09:57:20.448663,2026-06-30T09:57:34.461888,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:57:20.448663,2026-06-30T09:57:20.448663,,,,,,,,,Como posso cancelar minhas viagens?,Acesse o site ou ligue para Central de Atendimento 156 e registre o cancelamento.,"Como posso cancelar minhas viagens?
+
+Acesse o site ou ligue para Central de Atendimento 156 e registre o cancelamento.",ATENDE+,1.0,1.0,1,1.0,1.0,,,,14.0132,1.0,1.000000
+F004,faq,Posso personalizar meu Bilhete Único com nome social?,"### Personalização do Bilhete Único com Nome Social
+
+Sim, é possível personalizar o **Bilhete Único** com o seu **nome social**. Esse procedimento está garantido pelo **Decreto Municipal nº 58.228/2018**.
+
+#### Como Proceder
+
+1. **Solicitação**: Os interessados devem solicitar a inclusão do nome social pelo site oficial da SPTrans, acessando [sptrans.com.br/atendimento](http://sptrans.com.br/atendimento).
+   
+2. **Preenchimento**: Insira a informação no campo correspondente na seção ""Meus Dados"" do menu ""Meu Perfil"".
+
+3. **Documentação**: Ao solicitar em um Posto Central, é necessário apresentar um documento de identidade. 
+
+#### Observações
+
+- Para solicitar a personalização, é necessário ser maior de 18 anos, ou estar acompanhado de um responsável legal com documento de identificação.
+- O Bilhete Único será confeccionado com o nome social no lugar do nome civil.
+
+Caso tenha mais dúvidas ou precise de mais informações, sinta-se à vontade para perguntar!",multiagente,20.0652,faq,faq,,2026-06-30T09:57:34.461888,2026-06-30T09:57:54.527487,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:57:34.461888,2026-06-30T09:57:34.461888,,,,,,,,,Posso personalizar o meu Bilhete Único com “Nome Social”?,"Sim. Esse procedimento está garantido pelo Decreto Municipal nº 58.228/2018. Os interessados podem solicitar o serviço pelo site: sptrans.com.br/atendimento, inserindo a informação no campo correspondente na seção ""Meus Dados"" do menu ""Meu Perfil"".","Posso personalizar o meu Bilhete Único com “Nome Social”?
+
+Sim. Esse procedimento está garantido pelo Decreto Municipal nº 58.228/2018. Os interessados podem solicitar o serviço pelo site: sptrans.com.br/atendimento, inserindo a informação no campo correspondente na seção ""Meus Dados"" do menu ""Meu Perfil"".",BILHETE ÚNICO,1.0,1.0,1,0.9205,1.0,,,,20.0656,1.0,0.973500
+F005,faq,Por quanto tempo valem os créditos adquiridos após 22/03/2019 no Bilhete Único?,"### Validade dos Créditos Adquiridos no Bilhete Único Após 22/03/2019
+
+Os créditos adquiridos no **Bilhete Único** após **22 de março de 2019** têm validade de **12 meses**. Isso significa que, após essa data, os créditos só poderão ser utilizados dentro desse período de um ano. 
+
+Caso tenha mais dúvidas ou precise de outras informações, estou à disposição!",multiagente,14.8663,faq,faq,,2026-06-30T09:57:54.527487,2026-06-30T09:58:09.394074,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:57:54.527487,2026-06-30T09:57:54.527487,,,,,,,,,Qual é o prazo máximo de validade dos créditos eletrônicos monetários e temporais?,Créditos adquiridos após 22/03/2019 valem por 12 meses.,"Qual é o prazo máximo de validade dos créditos eletrônicos monetários e temporais?
+
+Créditos adquiridos após 22/03/2019 valem por 12 meses.",BILHETE ÚNICO,1.0,1.0,1,0.9167,1.0,,,,14.8666,1.0,0.972233
+F008,faq,O Bilhete Único Mamãe Tarifa Zero pode ser usado nos ônibus da SPTrans?,"### Uso do Bilhete Único Mamãe Tarifa Zero nos Ônibus da SPTrans
+
+O **Bilhete Único Mamãe Tarifa Zero** pode ser utilizado **nos ônibus da SPTrans**. Este programa concede transporte gratuito para mães, pais e responsáveis (como padrasto, madrasta, avó, tio, entre outros) de crianças de zero a 4 anos que estejam matriculadas em creches públicas de São Paulo. 
+
+#### Informações Adicionais:
+- Os créditos de gratuidade do Bilhete Único Mamãe Tarifa Zero são válidos **apenas para uso nos ônibus da SPTrans**.
+- Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo ""Comum"" (dinheiro ou cotas de tempo).
+
+Caso precise de mais informações ou tenha outras dúvidas, estou à disposição!",multiagente,15.7739,faq,faq,,2026-06-30T09:58:09.396074,2026-06-30T09:58:25.169197,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:58:09.395074,2026-06-30T09:58:09.395074,,,,,,,,,O Bilhete Único Mamãe Tarifa Zero poderá ser usado no metrô ou trem?,"Os créditos de gratuidade do Bilhete Único Mamãe Tarifa Zero são válidos apenas para uso nos ônibus da SPTrans. Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo Comum.","O Bilhete Único Mamãe Tarifa Zero poderá ser usado no metrô ou trem?
+
+Os créditos de gratuidade do Bilhete Único Mamãe Tarifa Zero são válidos apenas para uso nos ônibus da SPTrans. Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo Comum.",BILHETE ÚNICO MAMÃE TARIFA ZERO,1.0,1.0,1,0.8947,1.0,,,,15.7741,1.0,0.964900
+F009,faq,O Bilhete Único Mamãe Tarifa Zero pode ser usado no metrô ou no trem?,"O **Bilhete Único Mamãe Tarifa Zero** **não pode ser usado no metrô ou no trem**. Os créditos de gratuidade desse bilhete são válidos **apenas para uso nos ônibus da SPTrans**. 
+
+Para utilizar o metrô ou o trem, é necessário carregar o cartão com créditos do tipo ""Comum"" (dinheiro ou cotas de tempo). 
+
+Se você tiver mais perguntas ou precisar de informações adicionais, estou aqui para ajudar!",multiagente,5.4901,faq,faq,,2026-06-30T09:58:25.169197,2026-06-30T09:58:30.659111,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:58:25.169197,2026-06-30T09:58:25.169197,,,,,,,,,O Bilhete Único Mamãe Tarifa Zero poderá ser usado no metrô ou trem?,"Os créditos de gratuidade do Bilhete Único Mamãe Tarifa Zero são válidos apenas para uso nos ônibus da SPTrans. 
+Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo ""Comum"" (dinheiro ou cotas de tempo).","O Bilhete Único Mamãe Tarifa Zero poderá ser usado no metrô ou trem?
+
+Os créditos de gratuidade do Bilhete Único Mamãe Tarifa Zero são válidos apenas para uso nos ônibus da SPTrans. 
+Para utilizar o metrô ou trem, é necessário carregar o cartão com créditos do tipo ""Comum"" (dinheiro ou cotas de tempo).",BILHETE ÚNICO MAMÃE TARIFA ZERO,1.0,1.0,1.0,0.9545,1.0,,,,5.4899,1.0,0.984833
+F013,faq,Qual é o prazo de entrega do Bilhete Único da Gestante após entregar a documentação?,"### Prazo de Entrega do Bilhete Único da Gestante
+
+A previsão de entrega do **Bilhete Único da Gestante** é de **até 20 dias** a contar da data em que toda a documentação necessária for entregue.
+
+Se precisar de mais informações ou tiver outras perguntas, estou aqui para ajudar!",multiagente,12.9327,faq,faq,,2026-06-30T09:58:30.662528,2026-06-30T09:58:43.595735,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:58:30.662528,2026-06-30T09:58:30.662528,,,,,,,,,Qual o prazo para entrega do Bilhete Único da Gestante?,A previsão de entrega é de até 20 dias a contar da data de entrega de toda a documentação necessária.,"Qual o prazo para entrega do Bilhete Único da Gestante?
+
+A previsão de entrega é de até 20 dias a contar da data de entrega de toda a documentação necessária.",BILHETE ÚNICO DA GESTANTE,1.0,1.0,1,0.9688,1.0,,,,12.9332,1.0,0.989600
+F015,faq,Quais são as formas de pagamento da solicitação do Bilhete Único de Estudante?,"### Formas de Pagamento da Solicitação do Bilhete Único de Estudante
+
+As formas de pagamento para a solicitação do **Bilhete Único de Estudante** são:
+
+- **PIX**
+- **Cartão de crédito**
+- **Boleto**
+
+Essas opções estão disponíveis pelo **site do Documento Nacional dos Estudantes (DNE)**.
+
+Se precisar de mais informações ou tiver outras perguntas, estou à disposição!",multiagente,15.1577,faq,faq,,2026-06-30T09:58:43.596735,2026-06-30T09:58:58.749085,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:58:43.596735,2026-06-30T09:58:43.596735,,,,,,,,,Quais as formas de pagamento da solicitação do Bilhete Único de Estudante?,"• Pelo site do Documento Nacional dos Estudantes – DNE (PIX, cartão de crédito ou boleto)","Quais as formas de pagamento da solicitação do Bilhete Único de Estudante?
+
+• Pelo site do Documento Nacional dos Estudantes – DNE (PIX, cartão de crédito ou boleto)",BILHETE ÚNICO DE ESTUDANTE,1.0,1.0,1,0.8889,1.0,,,,15.1524,1.0,0.962967
+F018,faq,Qual é o prazo de entrega do Bilhete Único Especial da Pessoa com Deficiência após aprovação?,"### Prazo de Entrega do Bilhete Único Especial da Pessoa com Deficiência
+
+A previsão de entrega do **Bilhete Único Especial da Pessoa com Deficiência** é de **até 20 dias**, contados a partir da **aprovação da solicitação**.
+
+Se precisar de mais informações ou tiver outras perguntas, estou aqui para ajudar!",multiagente,12.4846,faq,faq,,2026-06-30T09:58:58.749085,2026-06-30T09:59:11.238882,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:58:58.749085,2026-06-30T09:58:58.749085,,,,,,,,,Qual o prazo para entrega do Bilhete Único?,"A previsão de entrega é de até 20 dias, contados a partir da aprovação da solicitação.","Qual o prazo para entrega do Bilhete Único?
+
+A previsão de entrega é de até 20 dias, contados a partir da aprovação da solicitação.",BILHETE ÚNICO ESPECIAL DA PESSOA COM DEFICIÊNCIA,1.0,1.0,1,0.9286,1.0,,,,12.4898,1.0,0.976200
+F031,faq,Qual é o limite de tempo para reapresentar o Bilhete Único Especial da Pessoa com Deficiência no mesmo ônibus?,"### Limite de Tempo para Reapresentar o Bilhete Único Especial da Pessoa com Deficiência
+
+Sim, há um limite de tempo para a reapresentação do **Bilhete Único Especial da Pessoa com Deficiência** no mesmo ônibus:
+
+- **60 minutos** para o mesmo coletivo.
+- **30 minutos** para bloqueios do metrô/trem.
+
+Se precisar de mais informações ou tiver outras perguntas, estou à disposição!",multiagente,15.2922,faq,faq,,2026-06-30T09:59:11.238882,2026-06-30T09:59:26.532812,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:59:11.238882,2026-06-30T09:59:11.238882,,,,,,,,,Há limite de tempo para reapresentação do Bilhete Único Especial da Pessoa com Deficiência no mesmo coletivo?,"Sim, o limite para reapresentação do cartão no mesmo coletivo é de 60 minutos. Nos bloqueios do metrô/trem, o limite é de 30 minutos.","Há limite de tempo para reapresentação do Bilhete Único Especial da Pessoa com Deficiência no mesmo coletivo?
+
+Sim, o limite para reapresentação do cartão no mesmo coletivo é de 60 minutos. Nos bloqueios do metrô/trem, o limite é de 30 minutos.",BILHETE ÚNICO ESPECIAL DA PESSOA COM DEFICIÊNCIA,1.0,1.0,1,0.8889,1.0,,,,15.2939,1.0,0.962967
+F043,faq,Meu cartão de gratuidade para pessoas de 60 a 64 anos parou de funcionar; o que devo fazer?,"### O que fazer se o cartão de gratuidade para pessoas de 60 a 64 anos parou de funcionar
+
+Se o seu cartão de gratuidade parou de funcionar, você deve:
+
+- **Dirigir-se a um Posto de Atendimento da SPTrans** mais próximo para que o cartão seja analisado.
+
+Se precisar de mais esclarecimentos ou tiver outras questões, estou aqui para ajudar!",multiagente,13.5673,faq,faq,,2026-06-30T09:59:26.533807,2026-06-30T09:59:40.101385,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:59:26.533807,2026-06-30T09:59:26.533807,,,,,,,,,"Meu cartão parou de funcionar, o que devo fazer?",Dirija-se a um Posto de Atendimento da SPTrans mais próximo para que o cartão seja analisado.,"Meu cartão parou de funcionar, o que devo fazer?
+
+Dirija-se a um Posto de Atendimento da SPTrans mais próximo para que o cartão seja analisado.",GRATUIDADE - PESSOAS COM 60 A 64 ANOS,1.0,1.0,1,0.8889,1.0,,,,13.5676,1.0,0.962967
+F044,faq,Existe alguma restrição de uso para o Bilhete Único Especial da Pessoa Obesa?,"### Restrições de Uso para o Bilhete Único Especial da Pessoa Obesa
+
+O **Bilhete Único Especial da Pessoa Obesa** não tem restrições para uso, mas há algumas considerações importantes:
+
+- A **integração gratuita** no período de 3 horas é **pessoal e intransferível**, ou seja, não pode ser emprestado a outra pessoa.
+- O bilhete é de **uso pessoal** e não pode ser utilizado por terceiros.
+
+Se precisar de mais informações ou tiver outras perguntas, estou à disposição!",multiagente,14.2808,faq,faq,,2026-06-30T09:59:40.102384,2026-06-30T09:59:54.383604,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:59:40.102384,2026-06-30T09:59:40.102384,,,,,,,,,Há restrição para o uso do Bilhete Único Especial da Pessoa Obesa?,"Sem restrição, porém a integração gratuita no período de 3h é pessoal e intransferível.","Há restrição para o uso do Bilhete Único Especial da Pessoa Obesa?
+
+Sem restrição, porém a integração gratuita no período de 3h é pessoal e intransferível.",BILHETE ÚNICO ESPECIAL DA PESSOA OBESA,1.0,1.0,1,1.0,1.0,,,,14.2812,1.0,1.000000
+F045,faq,"Se a empresa já pagou o pedido de Vale-Transporte, por que a recarga ainda não aparece no Bilhete Único?","### Motivo da Recarga de Vale-Transporte Não Aparecer no Bilhete Único
+
+Se a recarga de Vale-Transporte não aparece no seu Bilhete Único, pode ser devido a um dos seguintes motivos:
+
+- **Liquidação Financeira**: Após o pagamento do boleto por sua empresa, é necessário aguardar **2 dias úteis** para a liquidação financeira e disponibilização da recarga. Essa pode ser a razão pela qual a recarga ainda não está disponível.
+
+Se o problema persistir após esse prazo, recomendo entrar em contato com a sua empresa ou com o atendimento da SPTrans para mais informações. Se precisar de mais ajuda, estou à disposição!",multiagente,17.0909,faq,faq,,2026-06-30T09:59:54.384603,2026-06-30T10:00:11.475840,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T09:59:54.384603,2026-06-30T09:59:54.384603,,,,,,,,,Minha empresa já fez o pedido do Vale-Transporte. Por que a recarga ainda não está disponível?,"Após o pagamento do boleto, é preciso aguardar 2 dias úteis para a liquidação financeira e disponibilização para recarga.","Minha empresa já fez o pedido do Vale-Transporte. Por que a recarga ainda não está disponível?
+
+Após o pagamento do boleto, é preciso aguardar 2 dias úteis para a liquidação financeira e disponibilização para recarga.",BILHETE ÚNICO VALE-TRANSPORTE,1.0,1.0,1,0.9545,1.0,,,,17.0912,1.0,0.984833
+F047,faq,Qual é o prazo de validade do Bilhete QR Digital da SPTrans?,"### Prazo de Validade do Bilhete QR Digital da SPTrans
+
+O **Bilhete QR Digital** não possui prazo de validade. Ele será válido até ser utilizado. Isso significa que você pode usar o Bilhete QR Digital sempre que precisar, desde que siga os procedimentos corretos para o pagamento e validação.
+
+Se tiver mais alguma dúvida ou precisar de ajuda adicional, estou à disposição!",multiagente,16.268,faq,faq,,2026-06-30T10:00:11.476926,2026-06-30T10:00:27.745002,faq,,,,,,Gabarito FAQ definido manualmente no CSV de entrada.,2026-06-30T10:00:11.476926,2026-06-30T10:00:11.476926,,,,,,,,,Qual o prazo de validade de um Bilhete QR Digital?,"O Bilhete QR Digital não possui validade, será válido até ser utilizado.","Qual o prazo de validade de um Bilhete QR Digital?
+
+O Bilhete QR Digital não possui validade, será válido até ser utilizado.",PAGAMENTO VIA QR CODE - BILHETE QR DIGITAL,1.0,1.0,1,0.8571,1.0,,,,16.2681,1.0,0.952367

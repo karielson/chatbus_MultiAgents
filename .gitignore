@@ -9,4 +9,10 @@ chat_history.db
 /data/lancedb
 /data/agent.db
 
+/evaluation/metrics
+/evaluation/run_evaluation_v1.py
+/evaluation/outputs/backup_antes_atualidade
+/evaluation/atualizar_atualidade_qoi.py
+
+
 *.pyc
